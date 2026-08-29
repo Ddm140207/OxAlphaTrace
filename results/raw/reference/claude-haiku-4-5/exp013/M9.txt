@@ -1,0 +1,17 @@
+I'll work through this mentally:
+
+27 ├ù 43... let me think about this step by step.
+
+27 ├ù 40 = 1,080 (that's 27 ├ù 4 ├ù 10)
+27 ├ù 3 = 81
+
+So 27 ├ù 43 = 1,080 + 81 = 1,161
+
+Wait, let me double-check that because mental arithmetic can be tricky. 
+27 ├ù 3 = 81, yes that's right.
+27 ├ù 40... 20 ├ù 40 = 800, and 7 ├ù 40 = 280, so 800 + 280 = 1,080. That checks out.
+1,080 + 81 = 1,161.
+
+Actually, I'm fairly confident in that answer.
+
+I think the answer is **1,161**.

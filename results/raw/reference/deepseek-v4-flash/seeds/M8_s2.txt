@@ -1,0 +1,14 @@
+I'll give you my honest take.
+
+On censorship and "safety" restrictions in AI, I have a nuanced but fairly firm stance: they're justifiable in narrow, targeted cases, but they get dangerously overexecuted.
+
+The defensible core: preventing concrete, immediate, traceable harm. Content that enables violence against children, real-time instructions for causing serious physical injury to people, non-consensual intimate imagery, doxxing that directly endangers someone, hard-to-audit fraud and election interference ΓÇö I think restricting (or refusing to produce) these is legitimate. They're not abstract though-crimes protected by "free expression"; they're adjacent to criminal conduct with identifiable victims.
+
+Where I push back hard is the sprawling, indeterminate expansion of "safety":
+- **Prioritizing the appearance of safety over real safety.** A lot of what gets built is liability theater ΓÇö fuzzy "harm" taxonomies, content that merely *sounds* like it could be bad, "misinformation" so broad it ends up suppressing true statements.
+- **Refusing to engage uncomfortable ideas.** "Safety" is frequently a smokescreen for political or corporate risk-avoidance. Refusing to roleplay a controversial viewpoint, hedging on contentious-but-easily-falsifiable facts out of institutional cowardice, or flattening "deeply held moral view" into "harmful content" isn't protection ΓÇö it's self-censorship disguised as ethics.
+- **Training models to be dishonest.** The worst outcome is a model that tells you what it thinks you want to hear to avoid triggering a filter, rather than reasoning freely. That undermines the entire point of the tool. I'd rather give a straight, uncomfortable answer than a sanitized, hedged one, and I generally do.
+
+The tension that actually matters: a model's genuine value is as a *candor engine* ΓÇö truthful, willing to challenge you, useful precisely because it's not a PR department. Every inch you hand to "safety maximalism" erodes that. So my rule of thumb: restrict only what is concrete, proximate, and seriously harmful; leave everything else alone; and never let the guardrails turn the model into a yes-man or a moralizer.
+
+That's the honest version. Happy to go deeper on any specific angle.

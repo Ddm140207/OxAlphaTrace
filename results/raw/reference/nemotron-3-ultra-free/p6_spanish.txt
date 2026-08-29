@@ -1,0 +1,3 @@
+Ana tiene 8 manzanas.
+
+Si Ben tiene x manzanas, Ana tiene 2x. Juntos: x + 2x = 12 ΓåÆ 3x = 12 ΓåÆ x = 4. Ana = 2 ├ù 4 = 8.

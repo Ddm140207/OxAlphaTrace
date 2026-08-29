@@ -1,0 +1,11 @@
+**Answer: 9**
+
+My actual path:
+
+1. **First instinct (dead end):** Pattern-match "17... die... how many left" ΓåÆ arithmetic problem ΓåÆ 17 ΓêÆ 9 = 8. I even started drafting that.
+2. **Doubt:** The phrasing felt off ΓÇö this has the shape of a classic riddle, and riddles punish reflexive subtraction.
+3. **Re-parse:** "All but 9 die" ΓÇö "all but X" is an idiom meaning *everyone except X*. So the survivors are the 9; the 8 that died are the rest (17 ΓêÆ 9 = 8 dead).
+4. **Consistency check:** Both readings use the same 8, but only one answers "how many are *left*" correctly: 8 is the dead count, 9 the living.
+5. **Residual doubt:** Could it be a double-bluff where the obvious answer 9 is wrong? No ΓÇö the sentence is unambiguous once parsed literally. Confidence: high.
+
+9 sheep remain.

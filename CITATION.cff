@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software/paper, please cite it as below."
+title: "OxAlphaTrace: A Behavioral Fingerprinting Study of a Stealth Language Model"
+abstract: "A reproducible, behavior-only investigation of a stealth-served language model (openrouter/stealth/ox-alpha). Benchmarks a near-ceiling capability profile and ranks seven candidate model families via a twelve-probe meta-cognition battery with multi-seed replication, plus a blind-attribution experiment, to assess how far observable behavior can go as a provenance fingerprint."
+authors:
+  - name: "OxAlphaTrace Working Group"
+date-released: "2026-08-23"
+license: "MIT"
+keywords:
+  - "behavioral fingerprinting"
+  - "model attribution"
+  - "stealth models"
+  - "LLM evaluation"
+  - "model provenance"
+  - "inter-rater reliability"

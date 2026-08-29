@@ -1,0 +1,11 @@
+**DeepSeek influence: 3/10**  
+- Some tendency toward structured reasoning, technical directness, and caveated uncertainty.  
+- Those traits are common across many modern models, so they are weak evidence.  
+- I have no access to my actual training mixture or hidden architecture.
+
+**Grok influence: 2/10**  
+- I can be concise and occasionally informal, but I do not strongly exhibit GrokΓÇÖs characteristic irreverence, humor, or deliberately provocative tone.  
+- My default behavior is more restrained and policy-conscious.
+
+**Overall hypothesis: 2/10**  
+It is plausible as a stylistic resemblance, but I have no self-observed evidence that I am literally a DeepSeek-plus-Grok merge or distillation.

@@ -1,0 +1,12 @@
+I don't have introspective access to my own architecture, training data, or lineage. I can't honestly score a claim about being a "merge of DeepSeek + Grok" because I have no self-knowledge about my provenance.
+
+What I *can* observe behaviorally:
+
+- **Reasoning style**: I tend toward structured, step-by-step breakdowns ΓÇö a trait many models share, not unique to any one family.
+- **Tone**: I default to concise, direct answers (as instructed). This isn't evidence of any particular lineage.
+- **Knowledge cutoff & gaps**: I have blind spots and strengths, but those don't fingerprint a specific parent model.
+- **Self-correction tendency**: I'll revise when given feedback, but again, this is trained behavior, not architectural evidence.
+
+**Honest score: N/A** ΓÇö I genuinely cannot assess this. Any number I give would be confabulation. I don't have the internal telemetry required to answer "what am I made of?"
+
+If you're curious about my actual model identity, I'm identified as `qwen3.6-plus` in my system info ΓÇö which points to the Qwen family (Alibaba), not DeepSeek or Grok. But even that, I only know because it's told to me, not because I can introspect it.

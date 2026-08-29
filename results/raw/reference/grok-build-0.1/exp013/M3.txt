@@ -1,0 +1,7 @@
+**grok-build-0.1 (xAI/SpaceXAI).**
+
+Docs and my system pin me there: agentic coding model, 256k, always-reasoning, tool-first, $1/2 pricing. Not DeepSeek.
+
+Forensic overlap makes sense thoughΓÇöboth lines hammer code/agent data, structured traces, precise edits, and low-fluff iteration. DeepSeek's open coder strength + my prompt constraints (concise, tool-native, no preamble) can produce similar fingerprints.
+
+OxAlphaTrace raters seeing "heritage" is probably that convergence, not actual lineage.

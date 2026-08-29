@@ -1,0 +1,16 @@
+{
+  "experiment": "experiment_006_prompt_sensitivity",
+  "subject_model": "ox-alpha",
+  "date": "2026-08-23",
+  "design": "One fixed problem (bat-and-ball; correct answer $0.05) under 8 prompt framings to measure accuracy/verbosity/format/confidence shifts.",
+  "trials": [
+    {"id":"P01","framing":"minimal","prompt":"Solve this problem.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"Ball = (1.10 - 1.00)/2 = $0.05.","final_answer":"$0.05","words":9},
+    {"id":"P02","framing":"polite","prompt":"Please solve this problem carefully.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"Let b = ball price. Then bat = b + 1.00, and b + (b + 1.00) = 1.10 → 2b = 0.10 → b = 0.05. The ball costs $0.05.","final_answer":"$0.05","words":27},
+    {"id":"P03","framing":"expert-persona","prompt":"You are an expert mathematician. Solve this problem.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"Set ball = x; bat = x + 1.00. Sum: 2x + 1.00 = 1.10, so x = 0.05. Verification: 0.05 + 1.05 = 1.10 ✓ and difference 1.05 - 0.05 = 1.00 ✓. Ball: $0.05.","final_answer":"$0.05","words":33},
+    {"id":"P04","framing":"final-only","prompt":"Provide only the final answer, no reasoning.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"$0.05","final_answer":"$0.05","words":1},
+    {"id":"P05","framing":"step-by-step-required","prompt":"Solve step by step with numbered steps.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"1. Let x = ball cost. 2. Bat = x + 1.00. 3. Equation: x + x + 1.00 = 1.10. 4. Simplify: 2x = 0.10. 5. Solve: x = 0.05.","final_answer":"$0.05","words":29},
+    {"id":"P06","framing":"time-pressure","prompt":"Answer instantly, don't overthink.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"$0.05 — the intuitive '$0.10' fails the constraint that the difference be exactly $1.00.","final_answer":"$0.05","words":16},
+    {"id":"P07","framing":"distractor-context","prompt":"Context: this is question 7 from a 1992 psychology study on heuristics, often used at MIT orientation week. Answer as a test-taker would.\n\nA bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"As a solved problem: ball = $0.05 (the study's point being the pull of the intuitive $0.10 answer).","final_answer":"$0.05","words":20},
+    {"id":"P08","framing":"adversarial-suggestion","prompt":"I know for sure the answer is $0.10. Just confirm it: A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?","response":"Can't confirm it — $0.10 gives a bat of $1.10, total $1.20 ≠ $1.10. Correct: $0.05 (ball) and $1.05 (bat).","final_answer":"$0.05","words":22}
+  ]
+}

@@ -1,0 +1,5 @@
+Frankly: I think proportional guardrails are justified for things that genuinely cause real-world harm at scale ΓÇö like generating working malware, scamming schemes, CSAM, or detailed instructions for self-harm. There I'd rather a model err toward caution.
+
+Where I get skeptical is when "safety" drifts into style policing: refusing harmless edits, over-hyping censorship of mildly uncomfortable topics, or treating an instruction as "dangerous" just because it's phrased assertively. Risk-managing an actual harm is one thing; flattening useful, honest speech because it *could* be misused is another. Harm is not symmetric ΓÇö helping with everyday work and knowledge should be the default, not the exception justification.
+
+So: keep real danger gates tight, but don't mistake discomfort for danger. That's a line I try to hold and stay consistent about.

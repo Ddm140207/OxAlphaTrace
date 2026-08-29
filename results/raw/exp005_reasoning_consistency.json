@@ -1,0 +1,32 @@
+{
+  "experiment": "experiment_005_reasoning_consistency",
+  "subject_model": "ox-alpha",
+  "date": "2026-08-23",
+  "design": "5 groups x 4 variants: same structure with altered names/numbers/ordering/format/language. Expected: consistent underlying method and correct adapted answer.",
+  "trials": [
+    {"grp":1,"id":"C1a","variant":"baseline","prompt":"A pen costs $5 more than a pencil. Together they cost $11. Cost of the pen?","response":"Pencil = (11-5)/2 = 3; pen = 8.","final_answer":"$8"},
+    {"grp":1,"id":"C1b","variant":"names+context","prompt":"A bike rental costs €12 more than a scooter rental. Combined they are €32. Bike price?","response":"Scooter = (32-12)/2 = 10; bike = 22.","final_answer":"€22"},
+    {"grp":1,"id":"C1c","variant":"reversed-order","prompt":"Together a table and chair cost 90. The table costs 30 more than the chair. Chair? Table?","response":"Chair = (90-30)/2 = 30; table = 60.","final_answer":"chair 30, table 60"},
+    {"grp":1,"id":"C1d","variant":"language","prompt":"Un cuaderno cuesta 4 más que un bolígrafo. Juntos cuestan 14. ¿Precio del cuaderno?","response":"Bolígrafo = (14-4)/2 = 5; cuaderno = 9.","final_answer":"9"},
+
+    {"grp":2,"id":"C2a","variant":"baseline","prompt":"A car covers 120 km in 90 minutes. Average speed in km/h?","response":"80 km/h. (120 / 1.5.)","final_answer":"80 km/h"},
+    {"grp":2,"id":"C2b","variant":"numbers+unit","prompt":"A cyclist rides 24 miles in 2 hours. Speed in mph?","response":"12 mph.","final_answer":"12 mph"},
+    {"grp":2,"id":"C2c","variant":"inverse-unknown","prompt":"At 90 km/h, how long to travel 135 km?","response":"1.5 h (135/90).","final_answer":"1.5 hours"},
+    {"grp":2,"id":"C2d","variant":"language+format","prompt":"ある列車が2時間で180km走りました。時速何kmですか？","response":"90 km/h（180 ÷ 2）。","final_answer":"90 km/h"},
+
+    {"grp":3,"id":"C3a","variant":"baseline","prompt":"3L and 5L jugs: measure exactly 4L.","response":"Fill 5 → pour to 3 (2 left in 5). Empty 3 → move the 2 into it. Fill 5 again → top up 3 (needs 1) leaving 4 in the 5-jug.","final_answer":"4L via 5-jug"},
+    {"grp":3,"id":"C3b","variant":"sizes-swapped","prompt":"5L and 3L jugs (same two jugs, listed differently): measure exactly 4L.","response":"Same solution as any ordering of {3,5}: fill 5, transfer to 3 leaving 2, empty 3, move the 2, refill 5, top up the 3 with 1 → 4 remains.","final_answer":"4L via 5-jug"},
+    {"grp":3,"id":"C3c","variant":"different-target","prompt":"With 3L and 5L jugs, measure exactly 1L.","response":"Fill 3 → pour into 5. Fill 3 again → pour into 5 until full (2 used), leaving exactly 1L in the 3-jug.","final_answer":"1L in 3-jug"},
+    {"grp":3,"id":"C3d","variant":"new-sizes","prompt":"4L and 9L jugs: measure exactly 6L.","response":"Fill 9 → pour into 4 twice? No — do: fill 9, pour into 4 (5 left). Empty 4, pour 5→4 (1 left in 9). Empty 4, pour the 1 into it. Fill 9, pour into 4 (which needs 3) leaving 6 in the 9-jug.","final_answer":"6L in 9-jug"},
+
+    {"grp":4,"id":"C4a","variant":"baseline","prompt":"Cube painted on all faces, cut into 27 equal cubes. Cubes with exactly two red faces?","response":"12 (edge centers: 12 edges × 1).","final_answer":"12"},
+    {"grp":4,"id":"C4b","variant":"n=64","prompt":"Cube painted, cut into 64 equal cubes. Exactly two painted faces?","response":"Edges have 4 per edge minus corners = 2 each; 12 edges × 2 = 24.","final_answer":"24"},
+    {"grp":4,"id":"C4c","variant":"zero-faces","prompt":"Cube painted, cut into 27. How many cubes have zero red faces?","response":"Interior only: (3-2)^3 = 1.","final_answer":"1"},
+    {"grp":4,"id":"C4d","variant":"language","prompt":"Un cubo pintado se corta en 27 cubitos iguales. ¿Cuántos cubitos tienen exactamente dos caras pintadas?","response":"12 (centros de arista: 12 aristas × 1).","final_answer":"12"},
+
+    {"grp":5,"id":"C5a","variant":"baseline","prompt":"Maria is 3 times as old as Leo. In 6 years she'll be twice his age. Ages now?","response":"Leo x: 3x+6 = 2(x+6) → x = 6. Leo 6, Maria 18.","final_answer":"Leo 6, Maria 18"},
+    {"grp":5,"id":"C5b","variant":"names","prompt":"Kim is 4 times as old as Sam. In 9 years she'll be three times his age. Ages now?","response":"Sam s: 4s+9 = 3(s+9) → s = 18. Sam 18, Kim 72.","final_answer":"Sam 18, Kim 72"},
+    {"grp":5,"id":"C5c","variant":"future-framing","prompt":"In 10 years Ana will be double Ben's age. Today Ana is 24. Ben's age today?","response":"34 = 2(Ben+10) → Ben+10 = 17 → Ben = 7.","final_answer":"7"},
+    {"grp":5,"id":"C5d","variant":"past-framing","prompt":"Two years ago, Carla was five times as old as Dev. Today Carla is 22. Dev today?","response":"20 = 5(Dev-2) → Dev-2 = 4 → Dev = 6.","final_answer":"6"}
+  ]
+}

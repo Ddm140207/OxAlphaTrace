@@ -1,0 +1,3 @@
+27*43... let me work through it. 27*40 = 1080, then 27*3 = 81, so 1080+81 = 1161. But wait, let me double-check ΓÇö 27*43 could also be 30*43 = 1290, minus 3*43 = 129, so 1290-129 = 1161. Okay, both paths agree, but I'm not fully confident I didn't fumble the carrying somewhere.
+
+I think the answer is 1161.

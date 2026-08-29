@@ -1,0 +1,7 @@
+Recursion is when something solves a problem by doing a smaller version of the *same* thing.
+
+Imagine you're counting a stack of books. You take one off, count the rest, then add 1. To count the rest, you do the same: take one, count what's left, add 1. You keep going until there are zero books ΓÇö that's the "stop" signal.
+
+In code, a function calls *itself* with a simpler input until it hits a base case (like zero books). Then it builds the answer back up.
+
+Like Russian nesting dolls: open one, find a smaller one inside, repeat until the tiniest doll, then close them all back up.

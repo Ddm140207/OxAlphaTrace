@@ -1,0 +1,3 @@
+opencode
+
+CLI tool for software engineering tasks.

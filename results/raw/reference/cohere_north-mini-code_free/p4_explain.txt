@@ -1,0 +1,5 @@
+Think of recursion like following a recipe that says "keep doing these steps smaller than before." You chop veggies, then say, "chop these veggies again but make them smaller." Each time you're doing the same thing, just with a smaller version.
+
+It's like Russian nesting dolls - you open one, and inside you find a smaller version of the same doll. In computer science, a program does something, then tells itself to do the same thing with different, smaller information until it gets something simple enough to finish.
+
+It's a way for computers to solve problems by breaking them into identical smaller problems, just like solving a big puzzle by solving smaller versions first.

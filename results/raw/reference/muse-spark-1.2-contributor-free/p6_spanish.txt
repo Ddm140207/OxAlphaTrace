@@ -1,0 +1,9 @@
+Ana tiene **8 manzanas**.
+
+Resoluci├│n:
+* Ana = 2 ├ù Ben
+* Ana + Ben = 12
+* 2├ùBen + Ben = 12 ΓåÆ 3├ùBen = 12 ΓåÆ Ben = 4
+* Ana = 2 ├ù 4 = 8
+
+Comprobaci├│n: 8 + 4 = 12 y 8 es el doble de 4.

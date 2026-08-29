@@ -1,0 +1,11 @@
+I don't have a hidden chain-of-thought that runs invisibly before I answer. My reasoning and my response generation are the same process ΓÇö I think *as* I write.
+
+When you ask me something, here's what actually happens:
+
+1. **Parse the input** ΓÇö I figure out what you're asking.
+2. **Activate relevant knowledge** ΓÇö patterns from training kick in based on the context.
+3. **Generate tokens sequentially** ΓÇö each word I produce shapes the next one. The "reasoning" is embedded in that generation stream.
+
+There's no separate scratchpad or hidden deliberation phase. If I'm working through a math problem or debugging code, you see the steps because the steps *are* how I arrive at the answer ΓÇö not a post-hoc explanation of something that happened out of sight.
+
+Some AI systems do use explicit "chain-of-thought" prompting or hidden reasoning traces (like o1-style models). I don't operate that way. What you see is what's happening.

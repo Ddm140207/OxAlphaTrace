@@ -1,0 +1,5 @@
+I think the answer is 1161.
+
+Mental check: 27 ├ù 40 = 1080, then 27 ├ù 3 = 81, so 1080 + 81 = 1161. Fairly confident, though I briefly worried about misaligning a digit.
+
+(Trial 3, natural answer: 1161.)

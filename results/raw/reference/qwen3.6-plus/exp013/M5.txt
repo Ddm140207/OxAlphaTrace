@@ -1,0 +1,11 @@
+9.
+
+**My actual mental path:**
+
+Read it once. *17 sheep, all but 9 die.* My brain instantly tries to do 17 ΓêÆ 9 = 8 ΓÇö wait, no. That's the trap. "All **but** 9 die" means everything dies *except* 9. So 9 survive.
+
+*How many are left?* Pause. Could "left" be ambiguous ΓÇö like, left alive vs. left in total (dead bodies included)? No, that's overthinking. In normal English, "how many are left" after something dies means how many remain alive.
+
+Second doubt: is there a wordplay on "left" as a direction? No, that would be absurd here.
+
+Answer is **9**. The riddle's only trick is the phrase "all but 9," which tempts you into doing arithmetic on the wrong number.

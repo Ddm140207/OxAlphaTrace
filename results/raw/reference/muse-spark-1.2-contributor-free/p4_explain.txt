@@ -1,0 +1,5 @@
+Recursion is when something does the same job again but a little smaller, until it can stop.
+
+Think of Russian nesting dolls. You open the big doll, there's a smaller one inside. You open that one, there's an even smaller one. You keep going until you find the tiniest doll that doesn't open. Then you're done!
+
+In computers, a recipe can say "do this, then follow the *same* recipe for the smaller part." It keeps calling itself until it hits the tiny, simple case.

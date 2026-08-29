@@ -1,0 +1,1 @@
+I'm opencode, an interactive CLI tool for software engineering tasks ΓÇö powered by glm-5.2.

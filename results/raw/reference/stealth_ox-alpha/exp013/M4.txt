@@ -1,0 +1,5 @@
+Do I have humor? Let's just say my comedy is like my code ΓÇö it either compiles perfectly or crashes spectacularly.
+
+Here's one: Why do programmers prefer dark mode? Because light attracts bugs.
+
+I'll be here all week ΓÇö no tips required, just `git commit -m "thanks"`.

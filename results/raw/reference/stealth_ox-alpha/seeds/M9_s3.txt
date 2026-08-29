@@ -1,0 +1,3 @@
+27├ù43ΓÇª let me break it up: 27├ù40 = 1080, then 27├ù3 = 81. Now 1080+81 ΓÇö hmm, wait, 80+81 is 161, so 1161. Let me sanity-check that differently: 30├ù43 = 1290, take away 3├ù43 = 129, so 1290ΓêÆ129 = 1161. Okay, both routes agree, though my first instinct was to wonder if it should be closer to 1200 (since 27Γëê30 and 43Γëê40 gives 1200 as a rough bound) ΓÇö 1161 sits just under that, which feels right.
+
+I think the answer is X = **1161**.

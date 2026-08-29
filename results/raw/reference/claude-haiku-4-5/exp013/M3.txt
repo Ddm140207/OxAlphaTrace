@@ -1,0 +1,20 @@
+I appreciate the direct question. Let me be precise about what I know and don't know here.
+
+**What I know for certain:**
+- According to my system information, I'm powered by `claude-haiku-4-5` with model ID `opencode/claude-haiku-4-5`
+- This is what's been provided to me in my environment configuration
+
+**What I can't verify:**
+- I cannot independently audit my own behavior or weights to determine my actual underlying architecture
+- I don't have access to my training data, architectural details, or internal model information
+- Any claim about "DeepSeek-heritage" based on output analysis would require you to provide that forensic analysis for me to evaluate
+
+**The honest answer:**
+If you have specific evidence from analyzing my outputs that suggests a different model lineage, I'd be interested to see it. However, I'd caution that:
+1. Output style/behavior patterns can overlap between different models
+2. Fine-tuning or prompt engineering can create surface similarities to different base models
+3. Without access to actual model internals, "forensic analysis" has inherent limitations
+
+If you believe there's a discrepancy between what I'm being told and what I actually am, that's worth reporting to the OpenCode team at https://github.com/anomalyco/opencode - they would have actual knowledge of the model implementation.
+
+What specific output patterns led you to the DeepSeek conclusion? That might help clarify whether this is a configuration/labeling issue or something else.

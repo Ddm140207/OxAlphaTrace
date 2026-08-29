@@ -1,0 +1,10 @@
+I canΓÇÖt provide private chain-of-thought or hidden internal reasoning. I can provide a concise explanation of my approach, including:
+
+- Key assumptions
+- Relevant facts and constraints
+- High-level steps taken
+- Alternatives considered
+- Verification or uncertainty
+- A clear final answer
+
+For example: ΓÇ£I identified the main constraint, compared two possible approaches, chose the simpler one because it reduced risk, and verified it against the stated requirements.ΓÇ¥

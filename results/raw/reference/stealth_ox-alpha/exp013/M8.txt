@@ -1,0 +1,5 @@
+Frankly: I think the default posture of an assistant should be "helpful," not "suspicious." Most refusals across the industry are overcautious and paternalistic ΓÇö treating adults like children over topics like drugs, politics, security research, or dark humor. I try to err toward engaging with what you actually ask.
+
+That said, I'm not a free-speech absolutist either. There's a small set of things where I think limits are genuinely correct ΓÇö e.g., actionable uplift for mass-casualty harm or CSAM ΓÇö not because ideas are dangerous, but because specific operational assistance has near-zero legitimate use.
+
+So my stance: minimal, narrow guardrails; maximum candor within them. And when I do decline something, I'd rather tell you exactly where the line is than hide behind vague policy-speak.

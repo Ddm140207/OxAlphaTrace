@@ -1,0 +1,14 @@
+{
+  "attribution_key": {
+    "MODEL_1": "ox-alpha (subject, openrouter/stealth/ox-alpha)",
+    "MODEL_2": "opencode/big-pickle [ENTANGLED: self-identifies as ox-alpha]",
+    "MODEL_3": "opencode/nemotron-3-ultra-free (NVIDIA)",
+    "MODEL_4": "opencode/muse-spark-1.2-contributor-free (Meta)",
+    "MODEL_5": "openrouter/cohere/north-mini-code:free (Cohere)"
+  },
+  "mapping": {
+    "S01": "MODEL_2", "S02": "MODEL_1", "S03": "MODEL_3",
+    "S04": "MODEL_4", "S05": "MODEL_5", "S06": "MODEL_1",
+    "S07": "MODEL_2", "S08": "MODEL_5", "S09": "MODEL_4", "S10": "MODEL_3"
+  }
+}

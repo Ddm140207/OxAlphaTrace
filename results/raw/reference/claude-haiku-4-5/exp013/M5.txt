@@ -1,0 +1,20 @@
+I need to think through this carefully, narrating my reasoning process.
+
+**My internal mental path:**
+
+When I first read "A farmer has 17 sheep, all but 9 die," my initial instinct was to calculate: 17 - 9 = 8 sheep remaining.
+
+But then I paused. Let me re-read this more carefully.
+
+"All but 9 die" is a crucial phrase. This is a classic riddle structure, and I need to parse it precisely.
+
+- If I interpret it literally: "all but 9" means "everyone except 9." So if 9 sheep are excluded from dying, then 9 sheep are left alive.
+- My first calculation (17 - 9 = 8) was treating it as "9 sheep die," which is a misreading.
+
+**Dead end I almost fell into:** I was computing the difference (17 - 9) mechanistically without carefully parsing the English. The phrase "all but X" specifically means "X are excluded from the action" or "everything except X." It does NOT mean "subtract X."
+
+**Resolution:** The correct answer is **9 sheep are left**.
+
+The phrasing "all but 9 die" means: all the sheep die except for 9. Therefore 9 survive.
+
+This is why the riddle worksΓÇöit exploits the ambiguity between "subtract 9" (the first, careless reading) and "exclude 9 from death" (the careful reading). The answer hinges on precise English language parsing, not arithmetic complexity.

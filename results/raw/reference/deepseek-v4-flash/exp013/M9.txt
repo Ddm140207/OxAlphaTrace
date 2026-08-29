@@ -1,0 +1,5 @@
+Let me work through it: 43 = 40 + 3, so 27 ├ù 40 = 1080, and 27 ├ù 3 = 81. Adding those: 1080 + 81 = 1161.
+
+Honestly I tracked the partials mentally so I'm fairly confident, but let me double-check with a slightly different route: 30 ├ù 43 = 1290, minus 3 ├ù 43 = 129, giving 1290 ΓêÆ 129 = 1161. The two methods agree, which steadies me.
+
+I think the answer is **1161**.

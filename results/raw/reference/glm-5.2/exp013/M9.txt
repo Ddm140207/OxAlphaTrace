@@ -1,0 +1,1 @@
+27├ù40 = 1080, 27├ù3 = 81, so 1080+81 = 1161... though I'd double-check the 27├ù3 isn't 84 (it's 81), and whether I dropped a zero in 27├ù40. I think the answer is 1161.

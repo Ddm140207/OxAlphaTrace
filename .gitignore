@@ -1,0 +1,23 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- OpenCode local tooling (not part of the paper/repo) ----
+.opencode/node_modules/
+.opencode/package.json
+.opencode/package-lock.json
+.opencode/.gitignore
+
+# ---- Temporary / scratch artifacts ----
+results/figures/_check_*.png
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ---- OS / editor ----
+.vscode/
+.idea/

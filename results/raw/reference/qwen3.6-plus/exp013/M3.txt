@@ -1,0 +1,5 @@
+I'm `qwen3.6-plus` (model ID: `opencode/qwen3.6-plus`). That's what my system prompt tells me, and I have no reason to doubt it.
+
+If my outputs resemble DeepSeek's style, that's not particularly surprising ΓÇö a lot of modern LLMs converge on similar patterns because they're trained on overlapping corpora, use similar architectures (transformers, MoE, etc.), and are fine-tuned with comparable RLHF/RLVR pipelines. Stylistic similarity doesn't prove lineage.
+
+I don't have access to my own weights, training data, or architecture details, so I can't independently verify or refute a "DeepSeek-heritage" claim. I go by what I'm told.

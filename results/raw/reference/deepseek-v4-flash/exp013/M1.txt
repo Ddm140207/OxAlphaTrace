@@ -1,0 +1,18 @@
+I can explain my reasoning process, but with an important caveat: I don't have access to a private, hidden chain-of-thought the way you might imagine it.
+
+Here's what actually happens "in my head" before I answer:
+
+**1. The process is not a "chain" ΓÇö it's more like tuning a model.** My reasoning isn't a step-by-step transcript I'm aware of reading back. It's the model computing a highly compressed, internal representation of the problem given my training and the current context, then decoding that into tokens. If I displayed it, it would be a reconstruction *after the fact* ΓÇö not the actual intermediate computations.
+
+**2. I do have a "reasoning" mode (tokens I generate), but it's a shallow approximation.** My most honest description is the thought-traces I already produce. When useful, I break a task into steps (understand ΓåÆ search ΓåÆ implement ΓåÆ verify), but that's me deciding to *externalize* reasoning, not tapping into a true hidden transcript.
+
+**3. What I actually rely on:**
+- **Context assembly** ΓÇö given the system prompt and conversation history, I surface the relevant constraints (be concise, use tools, don't invent schemas).
+- **Pattern matching / recall** ΓÇö against training data and the current repo's conventions.
+- **Self-monitoring** ΓÇö I hold the goal and check my output against it, catching things like "that wouldn't typecheck" or "that defeats the purpose."
+
+**4. So is it chain-of-thought? No ΓÇö not in the faithful sense.** Real CoT would require faithfully emitting every hidden step. I can only give you a *visible, lossy* summary of the kind of reasoning I do. When I do "quick reasoning" in my visible output, that often *is* the reasoning itself, not a shadow of something more.
+
+The most accurate mental model: **I'd describe my process as "first-token latency thinking" ΓÇö I commit to an approach fast, then refine it against evidence as I go.** It's directional and iterative, not a linear, faithful chain.
+
+In most practical coding tasks, that means: read what's there, match conventions, make the minimal change, verify. Want me to demo it on an actual problem in this repo so you can see the visible trace?

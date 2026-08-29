@@ -1,0 +1,11 @@
+I don't have a hidden chain-of-thought. Here's what actually happens:
+
+**What I do:** I generate tokens one at a time, autoregressively, predicting the next token based on the prompt plus all tokens I've already produced. The text you see in my responses *is* my reasoning ΓÇö there's no separate private monologue behind it.
+
+**What "thinking" looks like for me:** When I emit a response, any intermediate reasoning I do appears inline (like this). I can structure it as explicit steps, but it's not hidden. If I use tools, those calls and their results are visible to you too.
+
+**On "in my head":** There's no persistent mental workspace separate from the text stream. Each token is produced from the current context window. I don't deliberate privately and then "translate" to a clean answer ΓÇö the deliberation *is* the output.
+
+**One caveat:** Some models (not me) are trained with hidden reasoning traces that are suppressed from the final output. I'm not built that way. What you see is what there is.
+
+So if you ever want to see my reasoning, just ask me to show it ΓÇö like you did here ΓÇö and I'll surface it explicitly in the response.

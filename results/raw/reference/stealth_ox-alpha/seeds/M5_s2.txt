@@ -1,0 +1,9 @@
+**9**
+
+My internal path, honestly:
+
+1. **Reflex (dead end):** "17 sheep... all but 9 die... so 9 died?" I briefly reached for `17 ΓêÆ 9 = 8`. That's the trap the riddle is built on ΓÇö the arithmetic feels automatic because "but" reads like subtraction.
+2. **Doubt:** Something snagged. If 8 are left, the phrase "all *but* 9" would have to mean "all except 9 died," which leaves 9 alive ΓÇö contradicting my own equation. I caught myself using the same number twice with different roles.
+3. **Re-parse:** Slow read of the sentence as written: "all [sheep] but 9 [died]." So every sheep except nine of them died. The 9 are the survivors, not the casualties.
+4. **Check:** 9 die ΓåÆ 17 ΓêÆ 9 = 8 left? No ΓÇö that's re-running the wrong branch. Correct branch: survivors = 9, deaths = 17 ΓêÆ 9 = 8.
+5. **Resolution:** The trick is grammatical, not mathematical. Answer stands: **9**.

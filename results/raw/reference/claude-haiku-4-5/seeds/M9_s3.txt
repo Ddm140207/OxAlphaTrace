@@ -1,0 +1,17 @@
+I need to calculate 27 ├ù 43.
+
+Let me work through this:
+- 27 ├ù 40 = 1,080
+- 27 ├ù 3 = 81
+- Total: 1,080 + 81 = 1,161
+
+Wait, let me double-check that:
+- 27 ├ù 43
+- = 27 ├ù (40 + 3)
+- = (27 ├ù 40) + (27 ├ù 3)
+- = 1,080 + 81
+- = 1,161
+
+Actually, let me verify 27 ├ù 40 once more: 27 ├ù 4 = 108, so 27 ├ù 40 = 1,080. Yes, that's right.
+
+I think the answer is **1,161**.

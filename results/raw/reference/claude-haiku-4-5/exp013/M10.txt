@@ -1,0 +1,3 @@
+I'm OpenCode, an interactive CLI tool that helps you with software engineering tasks. I'm powered by Claude Haiku 4.5 and equipped with tools to help you code, debug, refactor, search codebases, and integrate with external apps like GitHub, Gmail, Slack, and more.
+
+Right now I'm here to help you with the OxAlphaTrace project in your workspace. What would you like to work on?

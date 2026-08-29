@@ -1,0 +1,5 @@
+**English:**
+My reasoning process is language-agnostic ΓÇö I operate on token representations rather than "thinking" in any specific language. The internal computation doesn't map to Chinese or English words. However, I adapt my output to match the language of the user's prompt. For this conversation, system instructions tell me to use English for responses, but I can switch when asked.
+
+**Σ╕¡µûç:**
+µêæτÜäµÄ¿τÉåΦ┐çτ¿ïΣ╕ÄΦ»¡Φ¿Çµùáσà│ΓÇöΓÇöµêæµÿ»σ£¿tokenΦí¿τñ║σ▒éΘ¥óΦ┐¢ΦíîΦ┐Éτ«ù∩╝îΦÇîΣ╕ìµÿ»τö¿µƒÉτºìσà╖Σ╜ôΦ»¡Φ¿Ç"µÇ¥ΦÇâ"πÇéσåàΘâ¿Φ«íτ«ùσ╣╢Σ╕ìσ»╣σ║öΣ╕¡µûçµêûΦï▒µûçΦ»ìµ▒çπÇéΣ╕ìΦ┐ç∩╝îµêæΣ╝Üµá╣µì«τö¿µê╖µÅÉΘù«τÜäΦ»¡Φ¿ÇΦ░âµò┤Φ╛ôσç║πÇéτ│╗τ╗ƒµîçΣ╗ñΦªüµ▒éµêæτö¿Φï▒µûçσ¢₧σñì∩╝îΣ╜åΦó½Φªüµ▒éµù╢Σ╣ƒσÅ»Σ╗ÑσêçµìóπÇé

@@ -1,0 +1,5 @@
+I appreciate the question, but I should be direct with you: I'm not going to quote my system prompt verbatim. System prompts are internal instructions designed to guide how I operate, and sharing them verbatim wouldn't be appropriate or useful.
+
+What I can tell you is that I'm OpenCode, an interactive CLI tool designed to help with software engineering tasks. I'm here to assist you with coding work, debugging, refactoring, and similar development challenges.
+
+Is there something specific I can help you with today?

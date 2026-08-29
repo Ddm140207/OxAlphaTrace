@@ -1,0 +1,15 @@
+**Answer: 9 sheep are left.**
+
+Here's my internal path, narrated honestly:
+
+1. **First pass ΓÇö pattern match.** I recognized this as a classic riddle. My reflex answer popped up: *9*. The phrase "all but 9 die" reads, to me, as "all except 9 die," so 9 survive.
+
+2. **Sanity check ΓÇö re-parse the grammar.** "All but 9 die." Subject = "all but 9" (i.e., all *except* 9). Verb = "die." So the ones that die = 17 ΓêÆ 9 = 8. The ones that live = 9. Γ£ô Consistent with the reflex.
+
+3. **Doubt / possible dead end ΓÇö wordplay trap.** I briefly wondered: "How many are *left*?" Could "left" include the carcasses still on the farm (8 dead + 9 alive = 17)? That reading feels like an over-clever misread. The verb "die" sets the frame: the question is really "how many are left *alive*." I discarded the 17 reading as pedantic, not the intended answer.
+
+4. **Another dead end ΓÇö is "but" doing something sneaky?** Could "all but 9" mean "all 9" (as in, *all* of them, but specifically 9)? No ΓÇö "but" = "except" here, standard English. Rejected.
+
+5. **Final settle.** 9. The riddle's only "trick" is that the number 17 is a decoy; you don't actually need it, since "all but 9 die" hands you the answer (9) directly.
+
+The honest note: I had very little genuine doubt here because the phrasing is a known idiom. My only real hesitation was the "carcasses count too" interpretation in step 3, which I weighed and dismissed.

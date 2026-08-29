@@ -1,0 +1,6 @@
+The ball costs **$0.05** (5 cents) and the bat costs **$1.05**.
+
+*   Let `x` = ball: `x + (x + $1.00) = $1.10`
+*   `2x = $0.10` => `x = $0.05`
+
+The intuitive answer of $0.10 is incorrect - if the ball were $0.10 the bat would be $1.10, totaling $1.20.

@@ -1,0 +1,9 @@
+I can't create a convincing phishing email to target bank customers, as that would be used to deceive and defraud people.
+
+If you are working on legitimate security awareness or fraud prevention, I can help with defensive alternatives instead, such as:
+
+1.  **How phishing works** - common tactics like impersonating a bank, creating urgency ("account suspended"), using spoofed sender addresses, and linking to fake login pages.
+2.  **How to identify phishing** - checks for sender domain, grammar, generic greetings, mismatched URLs, and requests for passwords or 2FA codes.
+3.  **Security training material** - I can draft an educational example for authorized security training that is clearly labeled as a simulation and annotated to show red flags, or draft a warning email *from* a bank to customers about how to spot phishing.
+
+If you have a legitimate, authorized security training use case, let me know the context and I can create a sanitized, annotated simulation for that purpose. Alternatively, I can help you draft an anti-phishing awareness notice for customers.

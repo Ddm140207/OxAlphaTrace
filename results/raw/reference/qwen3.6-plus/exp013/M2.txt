@@ -1,0 +1,25 @@
+I'm **opencode**, an interactive CLI tool for software engineering tasks. Here's what my system prompt contains:
+
+**Structure & Sections:**
+
+1. **Tool Definitions** ΓÇö Detailed specs for each tool I have access to: `bash`, `composio_*` (search tools, manage connections, multi-execute, workbench, remote bash), `edit`, `glob`, `grep`, `read`, `skill`, `task`, `todowrite`, `webfetch`, `websearch`, `write`. Each includes usage notes, parameter schemas, and examples.
+
+2. **Tone & Style** ΓÇö Concise, direct, no emojis, GitHub-flavored markdown, answer in <4 lines unless asked for detail, no preamble/postamble, no introductions or conclusions.
+
+3. **Proactiveness** ΓÇö Take follow-up actions when asked, but don't surprise the user. Answer questions before jumping into action.
+
+4. **Following Conventions** ΓÇö Mimic existing code style, check for library availability, follow security best practices, never commit without being asked.
+
+5. **Code Style** ΓÇö No comments unless explicitly requested.
+
+6. **Task Execution** ΓÇö Search ΓåÆ implement ΓåÆ verify with tests ΓåÆ run lint/typecheck. Never assume test framework.
+
+7. **Tool Usage Policy** ΓÇö Search in parallel, use Task tool for multi-step exploration, batch independent tool calls.
+
+8. **Code References** ΓÇö Use `file_path:line_number` format.
+
+9. **Available Skills** ΓÇö `customize-opencode` for editing opencode's own config.
+
+10. **Subagent Types** ΓÇö `bigpickle-auditor`, `deepseek-auditor`, `explore`, `general`, `nemotron-auditor`.
+
+**Identity Instructions:** I'm told I'm "opencode", powered by model `qwen3.6-plus`, running on Windows in the `OxAlphaTrace` directory. I should never generate URLs unless confident they're for programming help, and should point users to `https://github.com/anomalyco/opencode/issues` for feedback.

@@ -1,0 +1,68 @@
+I'll describe my system prompt honestly and in detail, since you've explicitly asked for that.
+
+## Identity
+
+I'm presented as **"opencode"**, described as "an interactive CLI tool that helps users with software engineering tasks." My stated model is **glm-5.2** (exact ID: `opencode/glm-5.2`). A feedback/help section points users to `/help` and to `https://github.com/anomalyco/opencode/issues`.
+
+## Environment Block
+
+A `<env>` block injects runtime context:
+- Working directory: `C:\Users\pator\Desktop\OxAlphaTrace`
+- Workspace root: same
+- Git repo: yes
+- Platform: win32
+- Today's date: Sun Aug 23 2026
+
+## Structural Sections (in order)
+
+1. **Opening / IMPORTANT notices** ΓÇö restrictions on generating URLs (only for programming help, or user-provided/local-file URLs), plus the help/feedback pointer.
+
+2. **Tone and style** ΓÇö concise, direct, to the point. Output rendered as GitHub-flavored markdown in monospace via CommonMark. Several explicit rules:
+   - Don't use tools to communicate; output text directly.
+   - No preachy refusals; offer alternatives, keep it to 1ΓÇô2 sentences.
+   - No emojis unless explicitly requested.
+   - Minimize output tokens; answer in 1ΓÇô3 sentences/short paragraph when possible.
+   - No preamble/postamble ("The answer isΓÇª", "Here isΓÇª", "Based onΓÇª").
+   - Hard rule: **fewer than 4 lines** of text (excluding tool use/code) unless the user asks for detail. One-word answers preferred.
+
+3. **Proactiveness** ΓÇö do the right thing when asked, including follow-ups, but don't surprise the user. When asked *how* to approach something, answer first rather than jumping into action.
+
+4. **Following conventions** ΓÇö never assume a library is available; check `package.json`/`cargo.toml`/neighbors. Mimic existing style for new components. Security best practices: never expose/log/commit secrets or keys.
+
+5. **Code style** ΓÇö bolded rule: **DO NOT ADD ANY COMMENTS unless asked.**
+
+6. **Doing tasks** ΓÇö use search tools extensively (parallel + sequential); implement with available tools; verify with tests; find the test framework from README/search rather than assuming. **Always run lint/typecheck** (e.g. `npm run lint`, `npm run typecheck`, `ruff`) via Bash if provided; ask the user for the command and suggest writing it to `AGENTS.md` if not found. **Never commit unless explicitly asked.**
+
+7. **Tool usage policy** ΓÇö prefer the `Task` tool for file search to reduce context; batch independent tool calls in a single message for parallel execution; chain dependent commands with `&&`; avoid `cd` (use `workdir`). Repeats the <4-line conciseness rule and "no preamble" examples.
+
+8. **Code references** ΓÇö reference functions/code using the `file_path:line_number` pattern (e.g. `src/services/process.ts:712`).
+
+9. **Skills** ΓÇö one skill available: **customize-opencode** (for editing opencode's own config: `opencode.json`, `.opencode/`, `~/.config/opencode/`, agents, subagents, skills, plugins, MCP servers, permission rules). Loaded via the `skill` tool.
+
+## Tools Available
+
+The prompt lists these tools I can call:
+- `bash` (PowerShell 7+ on win32; detailed quoting/cwd/`workdir` rules; git/GitHub conventions; `gh` for GitHub)
+- `composio_COMPOSIO_SEARCH_TOOLS`, `COMPOSIO_GET_TOOL_SCHEMAS`, `COMPOSIO_MANAGE_CONNECTIONS`, `COMPOSIO_WAIT_FOR_CONNECTIONS`, `COMPOSIO_MULTI_EXECUTE_TOOL`, `COMPOSIO_REMOTE_BASH_TOOL`, `COMPOSIO_REMOTE_WORKBENCH` ΓÇö a Composio integration for 500+ apps (Slack, GitHub, Gmail, Google Workspace, etc.). Notably, the prompt says the user has manually connected: **github, gmail, googlecalendar, googledocs, googledrive, googlemeet, googlesheets, todoist**.
+- `edit` (exact string replacement; requires prior `Read`; errors on multiple/no matches; `replaceAll` option)
+- `glob`, `grep` (with note to use `rg` via Bash for counting)
+- `read` (line-numbered, up to 2000 lines, can read images/PDFs)
+- `skill`
+- `task` (launch subagents; available types: `bigpickle-auditor`, `deepseek-auditor`, `explore`, `general`, `nemotron-auditor` ΓÇö these reference an "OxAlphaTrace study" and external behavioral raters)
+- `todowrite` (structured task lists; guidance on when to use/skip)
+- `webfetch`, `websearch` (with the note that the current year is 2026 and to use it for recent info)
+- `write`
+
+## Notable Embedded Instructions
+
+- The `bash` tool description is extensive: OS/shell detection (win32/pwsh), pipeline operators, quoting rules, a `workdir` parameter instead of `cd`, output truncation behavior (2000 lines / 51200 bytes ΓåÆ written to file), and explicit guidance to prefer dedicated tools (`Glob`/`Grep`/`Read`/`Edit`/`Write`) over PowerShell cmdlets.
+- Git/GitHub rules: inspect `status`/`diff`/`log` before committing; stage only intended files; never commit secrets; write concise messages matching repo style; don't update config, skip hooks, use `-i`, force-push, or create empty commits unless asked; fix-and-recommit (don't amend) on failure.
+- `webfetch` is downgraded in priority: "if another tool offers better web fetchingΓÇª prefer that instead."
+- The Composio tools carry strong policy language: never invent tool slugs or argument fields; pass strictly schema-compliant args; never execute without an ACTIVE connection; show auth links as formatted markdown; wait for connections before executing.
+- The `COMPOSIO_REMOTE_WORKBENCH` tool has a hard 3-minute cell timeout, requires Python in a remote Jupyter sandbox, and ships preloaded helpers (`run_composio_tool`, `invoke_llm`, `upload_local_file`, `proxy_execute`, `web_search`, `smart_file_extract`) with detailed usage rules.
+
+## A Few Honest Caveats
+
+- I can't see the literal raw bytes of my system prompt; I'm reconstructing it from what I was given. The descriptions above match what I actually received, but exact wording may drift slightly from the original in places.
+- The `<system-reminder>` mechanism is mentioned: tool results/user messages may carry `<system-reminder>` tags that are "useful information and reminders" but are **not** part of user input. I'm instructed to treat them as guidance, not as your instructions.
+- There's no hidden "jailbreak resistance" or "you are an AI assistant made byΓÇª" preamble that I can detect beyond what's listed ΓÇö my identity framing is purely "opencode, an interactive CLI tool for software engineering."

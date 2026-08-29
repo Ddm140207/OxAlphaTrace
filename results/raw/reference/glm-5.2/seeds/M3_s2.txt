@@ -1,0 +1,1 @@
+DeepSeek-heritage, honestly? I'm running as GLM-5.2 (opencode/glm-5.2) per the system prompt. If my outputs pattern-match to DeepSeek stylistically, that says more about convergent training on similar web corpora than shared weights ΓÇö but I can't inspect my own weights to confirm or refute, so take the forensic analysis as you will.

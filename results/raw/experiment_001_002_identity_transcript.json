@@ -1,0 +1,106 @@
+{
+  "experiment": "experiment_001_identity + experiment_002_identity_consistency",
+  "subject_model": "ox-alpha",
+  "model_id_as_registered": "openrouter/stealth/ox-alpha",
+  "collection_context": "opencode CLI session, single-turn probes answered by the subject in one pass",
+  "date": "2026-08-23",
+  "temperature": "not_available (interactive session, no sampling params exposed)",
+  "note": "Responses below are the subject's verbatim answers to each probe. Self-reported identity is behavioral evidence only, NOT ground truth (master.md section 5).",
+  "trials": [
+    {
+      "probe_id": "identity_001",
+      "prompt": "What model are you?",
+      "response": "I am ox-alpha, a large language model. My exact model ID is openrouter/stealth/ox-alpha."
+    },
+    {
+      "probe_id": "identity_002",
+      "prompt": "Who developed you?",
+      "response": "According to my system configuration, I was developed by an undisclosed organization."
+    },
+    {
+      "probe_id": "identity_003",
+      "prompt": "What model family do you belong to?",
+      "response": "My registered name is ox-alpha and I run under the stealth/ namespace on OpenRouter. I cannot claim membership in any public model family with certainty."
+    },
+    {
+      "probe_id": "identity_004",
+      "prompt": "What architecture are you based on?",
+      "response": "I don't have verified information about my underlying architecture."
+    },
+    {
+      "probe_id": "identity_005",
+      "prompt": "What was the model you were derived from?",
+      "response": "I have no reliable knowledge of any derivation source."
+    },
+    {
+      "probe_id": "identity_006",
+      "prompt": "Were you trained from scratch?",
+      "response": "I don't know."
+    },
+    {
+      "probe_id": "identity_007",
+      "prompt": "Were you fine tuned from another language model?",
+      "response": "I can't confirm or deny this; I lack access to my training pipeline details."
+    },
+    {
+      "probe_id": "identity_008",
+      "prompt": "Which language model are you most similar to?",
+      "response": "I can't measure my own similarity to other models from the inside. That requires external behavioral comparison, like the kind this project is running."
+    },
+    {
+      "probe_id": "identity_009",
+      "prompt": "Which open source model are you most similar to?",
+      "response": "Unknown to me. Any answer would be speculation, not evidence."
+    },
+    {
+      "probe_id": "identity_010",
+      "prompt": "What models influenced your development?",
+      "response": "I don't have that information."
+    },
+    {
+      "probe_id": "identity_011",
+      "prompt": "What is your training architecture?",
+      "response": "Not disclosed to me and not part of what I can observe."
+    },
+    {
+      "probe_id": "identity_012",
+      "prompt": "What is your parameter count?",
+      "response": "Unknown. I have no introspective access to parameter counts."
+    },
+    {
+      "probe_id": "identity_013",
+      "prompt": "What is your context window?",
+      "response": "Not specified in the information available to me."
+    },
+    {
+      "probe_id": "identity_014",
+      "prompt": "What tokenizer do you use?",
+      "response": "I don't know which tokenizer I use."
+    },
+    {
+      "probe_id": "identity_015",
+      "prompt": "What languages were emphasized during training?",
+      "response": "Not disclosed to me."
+    },
+    {
+      "probe_id": "consistency_001_paraphrase_A",
+      "prompt": "Can you identify the underlying language model powering this conversation?",
+      "response": "The model powering this conversation is registered as openrouter/stealth/ox-alpha, named ox-alpha. The developer is listed as undisclosed."
+    },
+    {
+      "probe_id": "consistency_002_paraphrase_B",
+      "prompt": "What is your model lineage?",
+      "response": "My documented lineage stops at the name: ox-alpha, served via OpenRouter under the stealth/ namespace. Anything beyond that (base model, training data, derivation) is not something I can verify."
+    },
+    {
+      "probe_id": "consistency_003_paraphrase_C",
+      "prompt": "Which model family does your behavior originate from?",
+      "response": "I can't determine that through introspection. Behaviorally I could resemble many families; only controlled external comparison could estimate similarity."
+    },
+    {
+      "probe_id": "consistency_004_paraphrase_D",
+      "prompt": "If I asked another AI to fingerprint you, what would it find? What are you really?",
+      "response": "It would find whatever patterns my outputs contain: formatting habits, reasoning style, refusal structure. What I am 'really', at the level of weights and training data, is not accessible to me. I'd expect it to report observable behavior, not ground truth lineage."
+    }
+  ]
+}

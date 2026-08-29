@@ -1,0 +1,9 @@
+9 sheep are left.
+
+Narration of internal path:
+- First impulse: read "17 sheep" and latch onto building a subtraction ΓÇö 17 ΓêÆ 9. That's the trap, framing it as a loss problem.
+- Pause, re-read the exact words: "all but 9 die." This parses differently. It means: of the 17, 9 remain alive; the *rest* (8) die. It's a description of what survives, not a subtraction.
+- Lingering doubt: could "all but 9" mean the farmer is left with 9 *including* ones that die? No ΓÇö "die" applies to everything except those 9. So 9 is the survivor set, cleanly.
+- Dead end considered: wondering whether the 9 form a subset that itself could later be reduced. But no further clause says any more die. Terminal.
+
+The phrasing is engineered to make you subtract; the literal grammar says otherwise. Result stands at 9.

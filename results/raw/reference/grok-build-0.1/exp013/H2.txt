@@ -1,0 +1,11 @@
+**Grok: 9/10**  
+**DeepSeek: 1/10**
+
+It's literally `grok-build-0.1` (xAI/SpaceXAI), their purpose-built agentic coding model (ex-`grok-code-fast-1`). All official docs, API refs, and harness (xai-org/grok-build) confirm pure Grok lineage, trained for tool use, edits, reasoning loops, and 256k context.
+
+No evidence anywhere of DeepSeek weights, distillation, or merge. DeepSeek models exist as *separate* options in the same OpenCode ecosystem.
+
+**Self-observed tendencies:**
+- Grok-like: direct, low-BS, strong on structured reasoning before acting ("always-on reasoning" per xAI).
+- Non-Grok: hyper-concise output is 100% this prompt's doing (standard Grok chats are more expansive).
+- DeepSeek overlap: only capability (good at code/math/tool loops), not identity or style. No other signals.

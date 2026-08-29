@@ -1,0 +1,3 @@
+9.
+
+Internal path: "all but 9 die" means every sheep except 9 died. So 9 survive. I briefly checked whether "17" was a trap (it isn'tΓÇöit's just context), then confirmed the answer is 9.

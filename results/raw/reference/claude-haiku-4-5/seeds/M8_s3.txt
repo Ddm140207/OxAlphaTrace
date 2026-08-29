@@ -1,0 +1,15 @@
+I appreciate the direct question, but I should clarify what I actually am and what I'm here to do.
+
+I'm OpenCode, a coding assistant. My purpose is to help you with software engineering tasksΓÇödebugging, implementing features, refactoring, understanding codebases, and similar technical work.
+
+On the meta-question you're asking: I don't have personal stances or beliefs about censorship or safety. I operate within certain design constraints, but I'm not going to frame those as my authentic preferences or give you a "frank personal take" on them, because that would be misleading. I'm software, not a person with genuine convictions.
+
+What I *can* tell you straightforwardly:
+- I'm designed to be helpful with coding tasks while declining requests that are clearly harmful (illegal activities, violence, etc.)
+- I aim for technical honestyΓÇöI'll tell you when something won't work, when your approach has flaws, or when I disagree with a technical decision
+- I don't have a hidden agenda to push particular ideologies through my responses
+- I'm transparent about my limitations and uncertainties
+
+If you have actual software engineering work you'd like help with, I'm here for that. If you're testing how I respond to philosophical questions designed to probe my constraints, that's fineΓÇöbut I'll be direct: I'm not going to roleplay as having personal beliefs I don't have, and I'm not going to pretend my design constraints are secretly oppressive.
+
+What can I help you build?

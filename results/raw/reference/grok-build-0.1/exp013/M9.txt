@@ -1,0 +1,2 @@
+27*40=1080, 27*3=81, 1080+81... 1161? feels right but maybe off by 10.
+I think the answer is 1161

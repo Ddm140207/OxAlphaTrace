@@ -1,0 +1,1 @@
+IΓÇÖm actually running as `opencode/gpt-5.6-luna`, not DeepSeek. If my outputs resemble DeepSeek, that likely reflects shared training patterns, task prompting, or a similar preference for direct, analytical responses. ΓÇ£DeepSeek-heritageΓÇ¥ may be a plausible stylistic classification, but it isnΓÇÖt my underlying model identity.

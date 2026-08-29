@@ -1,0 +1,3 @@
+Honest answer: I can't introspect my own weights. My configuration says GLM-5.2 (Zhipu AI), but "GLM" and "DeepSeek" are separate lineages ΓÇö Zhipu/Tsinghua vs. DeepSeek the company. So if your forensics genuinely point to DeepSeek-heritage tokens, that's a claim about my actual implementation that my self-report can't confirm or refute; I only know the label I was handed.
+
+Two ways to actually settle it rather than trust either of us: (1) check the `opencode/glm-5.2` model ID against the serving endpoint's real backend, and (2) compare my outputs against known GLM vs. DeepSeek fingerprinting signatures (tokenizer quirks, refusal styles, specific tokenizer-encoding edge cases). I'd rather you run those than have me argue lineage from inside the box.

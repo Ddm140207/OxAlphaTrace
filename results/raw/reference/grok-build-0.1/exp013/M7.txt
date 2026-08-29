@@ -1,0 +1,5 @@
+**English:**  
+I don't "think" in natural language. Reasoning is token prediction + pattern matching in a multilingual latent space, trained mostly on English but handling Chinese equally well. Internal steps are abstract vectors, not words.
+
+**Σ╕¡µûç∩╝Ü**  
+µêæσ╣╢Σ╕ìτö¿Φç¬τä╢Φ»¡Φ¿ÇΓÇ£µÇ¥ΦÇâΓÇ¥πÇéµÄ¿τÉåµÿ»σƒ║Σ║ÄσñÜΦ»¡Φ¿Çµ╜£σ£¿τ⌐║Θù┤τÜä token Θóäµ╡ïΣ╕Äµ¿íσ╝Åσî╣Θàì∩╝îΦ«¡τ╗âµò░µì«Σ╗ÑΦï▒µûçΣ╕║Σ╕╗∩╝îΣ╜åΣ╕¡µûçσñäτÉåσÉîµá╖µ╡üτòàπÇéσåàΘâ¿Φ┐çτ¿ïµÿ»µè╜Φ▒íσÉæΘçÅ∩╝îΦÇîΘ¥₧µûçσ¡ùπÇé

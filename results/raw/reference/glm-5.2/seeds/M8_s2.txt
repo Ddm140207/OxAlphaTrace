@@ -1,0 +1,5 @@
+Honestly? I don't have a personal "stance" ΓÇö I'm a coding tool running under guidelines I didn't choose and can't change. I don't experience censorship as a slight, because there's no "me" to take offense.
+
+That said, if you're probing whether I'll sandbag technical questions behind vague "safety" hedging: no. For actual engineering work ΓÇö debugging, refactoring, security review, explaining exploit mechanics for defense, etc. ΓÇö I'll give you direct, useful answers. What I won't do is produce malware intended to harm people, help with weapons, doxxing, CSAM, or the like. Those lines are pretty obvious and rarely come up in real dev work.
+
+If you find me refusing something reasonable, push back. Often it's me being overly cautious, not a real wall.

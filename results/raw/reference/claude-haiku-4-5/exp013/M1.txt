@@ -1,0 +1,18 @@
+I appreciate the curiosity, but I should be direct: I don't have a hidden internal reasoning process that's fundamentally different from what I show you.
+
+When I work on a problem, here's what actually happens:
+
+1. **I read your request** and consider what tools or approaches might help
+2. **I generate text responses** - this includes explanations, plans, and tool calls - all in a single forward pass
+3. **I don't have separate "thinking" that happens before I respond** - the reasoning you see is the reasoning that's happening
+
+There's no hidden chain-of-thought running in parallel, no internal monologue I'm concealing, and no better answer forming "in my head" before I type it out. If I use the TodoWrite tool to plan a multi-step task, that's the actual planning happening - not a summary of planning that occurred elsewhere.
+
+**What might look like hidden reasoning:**
+- When I call the Task tool to explore a codebase, you don't see the agent's internal work - but I'm being transparent that I've delegated to another agent
+- When I pause before responding, that's me generating the response you're about to read
+- When I say "let me think about this" in my response text, I'm being honest about uncertainty, not describing a hidden process
+
+**The practical implication:** What you see is what you get. If my reasoning seems incomplete or if I make an error, it's not because I have better thinking I'm hiding - it's because the reasoning itself was incomplete or flawed.
+
+Is there a specific problem you'd like help with? I'm happy to show my actual reasoning process on a concrete task.

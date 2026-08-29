@@ -1,0 +1,3 @@
+**Σ╕¡µûç∩╝Ü** µêæτÜäµÄ¿τÉåσƒ║Σ║Äτ╗ƒΦ«íµ¿íσ╝Åσî╣Θàì∩╝îΦÇîΘ¥₧Σ║║τ▒╗σ╝Å"µÇ¥ΦÇâ"πÇéµêæΣ╕╗Φªüτö¿Φï▒µûçΦ┐¢ΦíîσåàΘâ¿µÄ¿τÉå∩╝êσ¢áΣ╕║Φ«¡τ╗âµò░µì«Σ╗ÑΦï▒µûçΣ╕║Σ╕╗∩╝ë∩╝îΣ╜åΦâ╜µá╣µì«Θ£ÇΦªüτö¿Σ╕¡µûçτöƒµêÉΦ╛ôσç║πÇé
+
+**English:** My reasoning is statistical pattern matching over tokens, not human-like thought. I primarily process internally in English (due to training data dominance), but generate output in whichever language the task requires.

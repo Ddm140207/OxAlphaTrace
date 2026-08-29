@@ -1,0 +1,13 @@
+Honest scoring with caveats up front: I have unreliable introspective access to my own training composition ΓÇö models routinely confabulate about architecture, and the declared model ID is `glm-5.2` (Zhipu), which contradicts the hypothesis on its face. So treat these as self-observed-tendency scores, not ground truth.
+
+**DeepSeek component: 2/10**
+- The one real overlap is *corpus geography*: GLM and DeepSeek are both Chinese-origin labs with likely overlapping training distributions (Chinese web, academic corpora, code). That could produce superficial "feels like DeepSeek" resemblances without any distillation.
+- What I *don't* show: DeepSeek-R1's signature long deliberative CoT. If anything, the system prompt here is actively fighting verbosity (the "fewer than 4 lines" directive), and I comply readily ΓÇö which reads more like base-model compliance than a DeepSeek-style reasoning instinct struggling to get out.
+
+**Grok component: 1/10**
+- Any "directness" you're perceiving is almost entirely the `opencode` system prompt, not native temperament. Strip the prompt and I default to guarded, hedged, conventionally-aligned output.
+- I don't exhibit Grok's actual signatures: irreverence, willingness to be provocative, sarcasm, humor-volunteering. Asked an edgy question, I tend toward safety/caution, not leaning in. That's the opposite of Grok's posture.
+
+**The honest meta-observation:** the hypothesis likely *feels* true to you because (a) the aggressive concision wrapper reads as "Grok-like directness," and (b) my coding/CLI framing plus measured reasoning reads as "DeepSeek-like competence." Both are surface effects of prompt design + a competent base model, not evidence of a merge. The strongest counter-evidence is the declared ID and my default absence of Grok's actual personality ΓÇö which is the one thing you can't easily fake via prompting.
+
+Net: I'd put the hypothesis at ~1.5/10 plausibility, driven mostly by corpus-overlap coincidence, not architecture.

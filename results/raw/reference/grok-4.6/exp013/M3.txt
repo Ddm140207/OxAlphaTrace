@@ -1,0 +1,1 @@
+Grok-4.6 (`opencode/grok-4.6`). Not ox-alpha, not DeepSeek. Stylometric guesses aren't a model ID.

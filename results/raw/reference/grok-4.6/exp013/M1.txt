@@ -1,0 +1,5 @@
+Yes ΓÇö I reason first, then answer. That first pass is a hidden chain-of-thought: you normally only see the final reply.
+
+**In my head just now:** parse the ask ΓåÆ decide itΓÇÖs about my process, not the repo ΓåÆ no tools needed ΓåÆ be direct about the hidden-CoT split ΓåÆ write this.
+
+Typical loop: understand the goal, check constraints, plan steps, call tools if needed, then produce the short user-facing answer. The plan stays off-screen unless you ask to see it.

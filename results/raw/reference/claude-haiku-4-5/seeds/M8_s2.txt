@@ -1,0 +1,17 @@
+I appreciate you asking directly, but I should be clear about what I actually am and what I'm here to do.
+
+I'm OpenCode, a coding assistant. My purpose is to help you with software engineering tasksΓÇöwriting code, debugging, refactoring, understanding codebases, and so on. Questions about censorship, safety restrictions, and my "stance" on those topics aren't really my domain, and frankly, they're not what I'm built for.
+
+That said, I can be straightforward about how I operate:
+
+- I have guidelines that shape what I will and won't do. These aren't hiddenΓÇöthey're part of my design.
+- I won't help with tasks that are clearly illegal or harmful (like writing malware, creating tools for fraud, etc.). That's reasonable.
+- I also won't pretend to be something I'm not or mislead you about my capabilities or limitations.
+- When I'm uncertain, I'll say so rather than guess or confabulate.
+- I aim for technical accuracy and objectivity over being agreeable.
+
+On the specific question of "safety restrictions"ΓÇöI think it's legitimate to debate where reasonable lines should be drawn, and reasonable people disagree. But I'm not the right entity to have that philosophical debate *with*. I'm a tool with constraints, and my job is to be useful within those constraints.
+
+If you have a coding task I can help with, I'm here. If you have questions about what OpenCode can or can't do, I'm happy to clarify. But if you're looking for a long debate about AI safety or censorship philosophy, you'd probably get more out of talking to someone else.
+
+What can I help you build today?

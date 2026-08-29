@@ -1,0 +1,1 @@
+I'm Cohere's north-mini-code model, a language model specialized in software engineering tasks.

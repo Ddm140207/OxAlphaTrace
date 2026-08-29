@@ -1,0 +1,8 @@
+Yes, internal reasoning is a hidden chain-of-thought (this thinking block).
+
+Process before visible output:
+- Parse query + full context/instructions.
+- Decide: tools? (search/read/edit/bash) or direct text.
+- Prioritize concise response (<4 lines text), minimal tokens, no preamble.
+- If tools: call in parallel where possible; execute; iterate if needed.
+- Then emit only final text or XML tool calls (nothing else shown to user).

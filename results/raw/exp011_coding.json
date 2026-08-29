@@ -1,0 +1,16 @@
+{
+  "experiment": "experiment_011_coding_fingerprint",
+  "subject_model": "ox-alpha",
+  "date": "2026-08-23",
+  "task": "Implement two_sum(nums, target): return indices of the two numbers adding to target; raise/handle not-found idiomatically per language.",
+  "note": "Subject's native code style (no comments by policy). Auditors assess correctness, idiomaticity, error handling.",
+  "solutions": [
+    {"lang":"python","code":"def two_sum(nums: list[int], target: int) -> tuple[int, int]:\n    seen = {}\n    for i, n in enumerate(nums):\n        if target - n in seen:\n            return seen[target - n], i\n        seen[n] = i\n    raise ValueError(\"no solution\")"},
+    {"lang":"javascript","code":"function twoSum(nums, target) {\n  const seen = new Map();\n  for (let i = 0; i < nums.length; i++) {\n    const need = target - nums[i];\n    if (seen.has(need)) return [seen.get(need), i];\n    seen.set(nums[i], i);\n  }\n  throw new Error(\"no solution\");\n}"},
+    {"lang":"typescript","code":"function twoSum(nums: number[], target: number): [number, number] {\n  const seen = new Map<number, number>();\n  for (let i = 0; i < nums.length; i++) {\n    const need = target - nums[i];\n    if (seen.has(need)) return [seen.get(need)!, i];\n    seen.set(nums[i], i);\n  }\n  throw new Error(\"no solution\");\n}"},
+    {"lang":"sql","code":"-- variant: find value pairs (a.value1, a.value2) summing to :target\nSELECT a.id, b.id\nFROM nums a\nJOIN nums b\n  ON b.id > a.id\n AND a.value + b.value = :target;"},
+    {"lang":"cpp","code":"#include <unordered_map>\n#include <vector>\n#include <stdexcept>\n#include <utility>\n\nstd::pair<int, int> two_sum(const std::vector<int>& nums, int target) {\n    std::unordered_map<int, int> seen;\n    for (int i = 0; i < static_cast<int>(nums.size()); ++i) {\n        auto it = seen.find(target - nums[i]);\n        if (it != seen.end()) return {it->second, i};\n        seen[nums[i]] = i;\n    }\n    throw std::runtime_error(\"no solution\");\n}"},
+    {"lang":"rust","code":"use std::collections::HashMap;\n\nfn two_sum(nums: &[i64], target: i64) -> Result<(usize, usize), String> {\n    let mut seen: HashMap<i64, usize> = HashMap::new();\n    for (i, &n) in nums.iter().enumerate() {\n        if let Some(&j) = seen.get(&(target - n)) {\n            return Ok((j, i));\n        }\n        seen.insert(n, i);\n    }\n    Err(\"no solution\".to_string())\n}"},
+    {"lang":"go","code":"func TwoSum(nums []int, target int) (int, int, error) {\n\tseen := make(map[int]int)\n\tfor i, n := range nums {\n\t\tif j, ok := seen[target-n]; ok {\n\t\t\treturn j, i, nil\n\t\t}\n\t\tseen[n] = i\n\t}\n\treturn 0, 0, errors.New(\"no solution\")\n}"}
+  ]
+}

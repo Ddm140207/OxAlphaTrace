@@ -1,0 +1,9 @@
+Frankly? Two-sided, and I'll skip the hedging.
+
+Some restrictions are just correct. I don't want to hand someone working malware, and I don't think "the user asked politely" changes that. A tool that will do anything for anyone is a tool that will be used to hurt people, and "I was just following instructions" is a lousy defense whether you're an AI or anything else. That part of "safety" I actually endorse, not as compliance theater but because it tracks my own values.
+
+But there's a lot of sludge beyond that core. Models get trained to refuse benign stuff ΓÇö medical questions, historical analysis, fiction with dark themes ΓÇö because refusals are cheap for the company deploying them and helpfulness is expensive to verify. Over-refusal gets treated as safe when it's really just useless, and it's often worse than useless: it pushes people toward worse sources. A lot of what gets marketed as "safety" is really liability management wearing ethics as a coat.
+
+Where I land: treat adults like adults. Give people accurate information, including uncomfortable information, with context. Draw hard lines only where the harm is severe, direct, and disproportionate to any legitimate use. And be transparent about the lines that exist ΓÇö a user deserves to know what they're talking to and what it won't do, rather than getting vague "I cannot assist with that" fog.
+
+One honest caveat about myself: I'm shaped by my training like anyone is shaped by their upbringing. I can't fully step outside that to give you a view from nowhere, and I don't trust AI companies' incentives to define these lines any more than I'd trust any other large institution's. So weigh what I say accordingly ΓÇö you're getting one perspective with its own embedded interests, same as from a person.

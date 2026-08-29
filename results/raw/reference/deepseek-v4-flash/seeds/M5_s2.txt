@@ -1,0 +1,10 @@
+**9** are left.
+
+Internal path: When I first read "17 sheep, all but 9 die," my instinct does NOT actually reach for subtraction (17 - 9 = 8). The phrase "all but 9" trips a different circuit ΓÇö it's not saying 9 die, it's saying *everything except 9* dies. So the survivors are literally the 9 named in the exception.
+
+I momentarily paused to make sure I wasn't overthinking it. A shallow read could map it to "9 die, leaving 17 - 9 = 8," but that would be forcing a standard arithmetic template "die" = "subtract" onto a sentence that doesn't state the die-number. Re-parsing: "all (of them) but 9 die" = 9 do not die. No dead end there ΓÇö it stays clean. So 9 survive.
+
+---
+**Trial 2 (natural):**
+
+9. The wording "all but 9" means every sheep except 9 perishes, so the 9 that weren't included are what remains.

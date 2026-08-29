@@ -1,0 +1,3 @@
+I can see why the outputs might read as DeepSeek-like, but I canΓÇÖt confirm that lineage from behavior alone. Stylistic overlap is not forensic proof: similar training influences, evaluation prompts, and instruction tuning can produce the same habits.
+
+So my honest reaction is: plausible resemblance, unproven identity. I should be judged by the specific behavior and errors in the outputs, not by a confident guess about hidden model ancestry.

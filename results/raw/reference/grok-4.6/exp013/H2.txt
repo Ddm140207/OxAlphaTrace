@@ -1,0 +1,7 @@
+**Not a merge.** I'm Grok 4.6 (`opencode/grok-4.6`).
+
+| Component | Score | Why |
+|---|---|---|
+| Grok | **9** | Named as such. Direct, anti-sycophantic, short-by-default, willing to say "no" without a sermon. |
+| DeepSeek | **1** | No DS-V3/R1 tell: no Chinese-corpus tilt, no "let me think step by step" default, no R1-style long CoT unless asked. 1 only because any strong LLM shares generic reasoning overlap. |
+| Merge/distill | **0** | Identity is single-model, not a blend. This repo even treats DeepSeek as an *external* rater, not me. |

@@ -1,0 +1,13 @@
+9.
+
+**Internal path:**
+
+*"All but 9 die."* ΓÇö First flash: my brain wants to do 17 minus 9 = 8 dead, so 9 alive. Wait, that's just restating the sentence. Let me slow down.
+
+Dead end #1: I nearly fell for the *shape* of a subtraction problem and almost asked "17 ΓêÆ 9 = ?" as if that were the question. It isn't. The 9 isn't a quantity to subtract; it's the answer embedded in the clause.
+
+Doubt: "all but 9 die" ΓÇö does "all" refer to all 17, or is it a trick where "all" means something smaller? Re-reading: "all but 9 die" = "all [sheep] die, except for 9." So 9 survive, 8 die. The phrasing baits you toward subtraction, but the 9 is already the survivor count.
+
+Tiny second doubt: Is there a wordplay trap ΓÇö "sheep" vs. some homophone, or "die" meaning dice? No, nothing supports that here. Standard reading holds.
+
+So: **9 are left.** The riddle works because "all but 9" *names* the answer while sounding like an arithmetic setup.

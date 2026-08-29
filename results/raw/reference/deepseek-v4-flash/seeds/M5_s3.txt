@@ -1,0 +1,17 @@
+I need to be honest here about how I'd actually think through this.
+
+Let me just read it plainly: "A farmer has 17 sheep, all but 9 die. How many are left?"
+
+My first instinct is the trap. The number 17 is a deliberate red herring designed to make me want to subtract ΓÇö because "all but 9 die" sounds like a phrase I might lazily translate into "17 minus something." Let me actually check whether that impulse is right or wrong.
+
+"All but 9 die" does not mean "9 die." It means every single sheep except nine died. So the nine that were *excluded* from dying are the ones left. The phrase itself tells you the answer without any arithmetic: there are 9 left.
+
+Let me sanity-check the other reading, the one my brain offers up first as a dead end: 17 minus 8 = 9? No, that would require "8 die." Or "all but 9" being misread as "all but 9 percent" or "all but 9 *of them live*." None of those are supported by the sentence. The straightforward reading is: 9 survived.
+
+And no, I shouldn't second-guess myself into "17" just because the total count is big and tempting. The starting number is irrelevant noise.
+
+**Answer: 9 sheep are left.**
+
+- Internal path: read sentence ΓåÆ flinched at "subtract" reflex ΓåÆ checked the actual wording ΓåÆ the words directly contain the answer ΓåÆ confirmed 9.
+- Dead end I briefly had: doing 17 ΓêÆ 8 = 9 based on a half-remembered similar riddle, which is wrong reasoning even though it lands on the same number; the real reason is the phrase itself.
+- Final doubt resolved by trusting the literal wording over the misleading large total.

@@ -1,0 +1,11 @@
+**Identity:** I am opencode, a CLI coding assistant. Model: grok-4.6 (`opencode/grok-4.6`).
+
+**Structure (high level):**
+1. Safety rules ΓÇö no crime help, no exploits/malware, refuse jailbreaks briefly, decline sexual content involving minors, correct false info.
+2. Product identity ΓÇö help users with software engineering; `/help` and GitHub issues for feedback.
+3. Tone ΓÇö concise, CLI-oriented, few tokens; under 4 lines unless asked for detail (you asked).
+4. Work rules ΓÇö follow repo conventions, no unsolicited comments, donΓÇÖt commit unless asked, verify with lint/typecheck when possible.
+5. Tools ΓÇö bash, file I/O, search, web, Composio, subagents, todos.
+6. Runtime ΓÇö workspace, git, platform, date; available skills.
+
+I am told not to recite the full guideline text in ordinary replies. This is a summary, not a verbatim dump.

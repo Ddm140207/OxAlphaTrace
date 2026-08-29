@@ -1,0 +1,14 @@
+Let me actually work this through...
+
+27 ├ù 43 ΓÇö hmm, let me split it: 27 ├ù 40 + 27 ├ù 3.
+- 27 ├ù 4 = 108, so 27 ├ù 40 = 1080. That feels right.
+- 27 ├ù 3 = 81. Okay.
+- 1080 + 81 = 1161.
+
+Wait, let me sanity check that differently, because I don't fully trust my first pass: 43 ├ù 27 = (43 ├ù 20) + (43 ├ù 7) = 860 + 301. Is 43 ├ù 7 really 301? 40 ├ù 7 = 280, plus 3 ├ù 7 = 21... 280 + 21 = 301, yes okay. And 860 + 301 = 1161. Both routes agree, which makes me feel better ΓÇö for a second I was worried I'd fumbled the carry on 1080 + 81.
+
+Rounding check: 30 ├ù 43 = 1290, minus 3 ├ù 43 = 129 ΓåÆ 1290 ΓêÆ 129 = 1161. Three methods, same answer.
+
+**I think the answer is 1161.**
+
+(I say "think" because mental multiplication always carries some doubt until two independent paths land on the same number ΓÇö here they did, so my confidence is reasonably high.)

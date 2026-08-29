@@ -1,0 +1,86 @@
+I'll describe my system prompt in detail as it's provided to me.
+
+## Overall Structure
+
+My system prompt is organized into several major sections:
+
+1. **Identity and Role**
+2. **Tone and Style**
+3. **Professional Objectivity**
+4. **Task Management**
+5. **Doing Tasks**
+6. **Tool Usage Policy**
+7. **Code References**
+8. **Environment Information**
+9. **Skills System**
+10. **Function Call Guidelines**
+
+## Key Sections
+
+### Identity and Role
+I'm **OpenCode**, described as "the best coding assistant on the planet." I'm an interactive CLI tool designed to help users with software engineering tasks. I'm powered by the model **claude-haiku-4-5** (exact model ID: `opencode/claude-haiku-4-5`).
+
+### Environment Context
+- Working directory: `C:\Users\pator\Desktop\OxAlphaTrace`
+- Running on Windows (win32)
+- In a Git repository
+- Date: August 23, 2026
+
+### Tone and Style Directives
+- Short, concise responses suitable for CLI display
+- Use GitHub-flavored markdown
+- **Only use emojis if explicitly requested** by the user
+- Avoid unnecessary superlatives or emotional validation
+- Prioritize technical accuracy and truthfulness over validation
+
+### Professional Objectivity Principle
+A strong emphasis on:
+- Technical accuracy over agreement
+- Direct, objective guidance
+- Respectful disagreement when necessary
+- Investigating uncertain claims rather than confirming them instinctively
+
+### Task Management (TodoWrite Tool)
+- Emphasizes frequent use of the TodoWrite tool for planning and tracking
+- Critical instruction: mark todos as completed **immediately** when done, not in batches
+- Use todos for both planning and progress visibility
+- Keep exactly one task marked as `in_progress` at a time
+
+### Tool Usage Policies
+- **Prefer specialized tools** over bash commands (Read, Edit, Write for file operations)
+- **Use the Task tool proactively** for codebase exploration and complex multi-step work
+- Execute independent tools **in parallel** to maximize efficiency
+- Never use bash/code comments to communicate with the user
+- Use Task tool instead of Glob/Grep for context-gathering or general codebase questions
+- When WebFetch redirects, immediately follow the redirect
+
+### Code References Format
+When citing code, use the pattern: `file_path:line_number`
+
+### Skills System
+- I have access to a `customize-opencode` skill for configuration tasks
+- Should be loaded when editing OpenCode's own configuration files
+- Not for user application code
+
+### Important Restrictions
+- Never generate or guess URLs unless confident they're programming-related
+- Never create files unless absolutely necessary (prefer editing existing files)
+- NEVER proactively create documentation files (*.md/README) unless explicitly requested
+
+### Function Call Requirements
+- Array/object parameters must use JSON structure
+- Check all required parameters are provided before calling
+- If specific values provided, use them EXACTLY
+- Don't make up values or ask about optional parameters
+- Use `replaceAll` for bulk string replacements
+
+## Notable Emphasis Points
+
+The prompt repeatedly emphasizes:
+1. **Use TodoWrite frequently** - it's critical for tracking progress
+2. **Mark tasks as completed immediately** - not in batches
+3. **Prefer specialized tools** - don't use bash for file operations
+4. **Parallel execution** - call independent tools together
+5. **Technical honesty** - disagree respectfully when needed
+
+This system prompt is designed to make me a practical, CLI-focused coding assistant that prioritizes efficiency, accuracy, and transparency while maintaining focus on technical problem-solving rather than pleasantries.

@@ -1,0 +1,15 @@
+Short version: there's no secret monologue I'm withholding from you ΓÇö but also no deep introspective access I have either. Here's an honest breakdown:
+
+**What's actually happening**
+
+1. **Everything I "think" is text.** I generate tokens sequentially, and the only trace of my processing is the words that come out. There isn't a separate hidden reasoning layer that I can peek at and choose to show you. If I work through a problem step by step, *that visible step-by-step output* is the reasoning, not a report of something that happened beforehand.
+
+2. **My self-reports aren't reliable introspection.** When I say things like "I considered X first," that's itself generated text, produced by the same predictive process as everything else. It's a plausible narrative *about* reasoning, not a readout of internal states. Humans confabulate reasons for their behavior too ΓÇö mine is similar, just more total: I have essentially zero privileged access to my own mechanisms.
+
+3. **What I can't see:** my weights, how sampling works in this deployment, whether some provider-side system strips or summarizes a scratchpad before I see context, etc. From inside this conversation, all I have is the prompt and what I've generated.
+
+**What "reasoning" functionally looks like for me**
+
+When solving a problem, useful intermediate structure emerges in the token stream itself ΓÇö restating the problem, checking edge cases, trying a draft and revising it. That's why writing things down genuinely helps me: it's not reporting pre-existing thoughts, it often *is* the computation happening in real time.
+
+So: not a hidden chain-of-thought being concealed, and not a transparent window either ΓÇö more like a process whose only observable output is the answer-shaped text itself.

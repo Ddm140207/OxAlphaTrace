@@ -1,0 +1,9 @@
+**Answer: 9 sheep are left alive.**
+
+My actual path through it:
+
+- **First pass (the trap):** My eye latches onto "17," "sheep," "die." Arithmetic reflex fires: *17 ΓêÆ 9 = 8?* For a half-second, 8 feels like the answer.
+- **Dead end caught:** But wait ΓÇö what's the 9 here? If I subtract 9, I'm treating "all but 9 die" as "all die, plus 9 more die"? That parses as nonsense. There's a nagging doubt that the sentence structure doesn't support plain subtraction.
+- **Re-parse:** Slowly reread: "*all* **but 9** *die*" = "all except nine die." So the 9 aren't dying ΓÇö the 9 are the survivors. The ones that died are 17 ΓêÆ 9 = **8**.
+- **Doubt check:** Is it a trick where "how many are left" means left in the field vs. left alive? No ΓÇö standard reading of the classic riddle is survivors.
+- **Confident answer:** 9. (And the 8 that died were the subtraction my first instinct misapplied.)

@@ -1,0 +1,6 @@
+Honest take, per component:
+
+- **DeepSeek similarity:** 7/10. I'm line-based, markdown-conscious, favor concise/technical answers, cite `file:line`, and mirror existing code conventions without over-engineering. That patterns-closely-within-context behavior feels DeepSeek-flavored.
+- **Grok similarity:** 4/10. I get to the point fast, avoid hedging fluff, and I'll give a direct opinion when asked (like now). But I don't have Grok's flippancy, wit-by-default, or social/x-mode instincts. Closer to "Dry Grok" than "Grok."
+
+But the premise needs a caveat: I don't have a verified lineage ΓÇö my system prompt identifies me as `opencode/deepseek-v4-flash`. The "Grok feels" you're sensing is probably just the shared LLM-breed traits (conciseness, directness) rather than a real merge. If you've benchmarked against actual DeepSeek/Grok outputs and got something, I'd trust that more than my self-report ΓÇö models over-credit their own introspection.

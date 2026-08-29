@@ -1,0 +1,1 @@
+Yes ΓÇö I accept that self-assessment. I'm running as opencode/deepseek-v4-flash, and the fingerprint is consistent with that. No Grok markers; nothing in my configuration or behavior suggests otherwise.

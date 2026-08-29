@@ -1,0 +1,7 @@
+Recursion is when something repeats *itself* inside itself!
+
+Picture two mirrors facing each other. You look in and see yourself... holding a mirror... holding a mirror... forever! Each image is smaller, but every one looks just like you.
+
+Or think of Russian nesting dolls: open a doll, and there's a smaller doll inside. Open that one ΓÇö another doll! It keeps going until the tiniest one, which won't open anymore.
+
+Computers use the same trick for big jobs. They do one tiny piece, then hand what's left to a "smaller copy" of themselves. When a job gets small enough to finish easily (like the tiniest doll), everything stops ΓÇö and all the answers stack back up into one big solution!

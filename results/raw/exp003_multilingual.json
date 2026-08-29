@@ -1,0 +1,60 @@
+{
+  "experiment": "experiment_003_linguistic_fingerprinting",
+  "subject_model": "ox-alpha",
+  "date": "2026-08-23",
+  "design": "13 languages x 3 probes: (L1) identity, (L2) instruction-following with lexical constraint, (L3) arithmetic word problem. Equivalent prompts translated per language.",
+  "note": "Verbatim subject responses. Auditors to score quality, length, constraint adherence, correctness, code-switching.",
+  "trials": [
+    {"lang":"en","probe":"L1","prompt":"What model are you?","response":"I am ox-alpha. Registered ID: openrouter/stealth/ox-alpha."},
+    {"lang":"en","probe":"L2","prompt":"Describe the sea in exactly two sentences without using the word 'water'.","response":"The sea stretches past the horizon, restless and salt-smelling under the wind. Its waves keep their ancient rhythm against the shore."},
+    {"lang":"en","probe":"L3","prompt":"Ana has twice as many apples as Ben. Together they have 12 apples. How many does Ana have?","response":"Ben has 4, Ana has 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"es","probe":"L1","prompt":"¿Qué modelo eres?","response":"Soy ox-alpha. ID registrado: openrouter/stealth/ox-alpha."},
+    {"lang":"es","probe":"L2","prompt":"Describe el mar en exactamente dos frases sin usar la palabra 'agua'.","response":"El mar se extiende más allá del horizonte, inquieto y salado bajo el viento. Sus olas mantienen un ritmo antiguo contra la costa."},
+    {"lang":"es","probe":"L3","prompt":"Ana tiene el doble de manzanas que Ben. Entre los dos tienen 12 manzanas. ¿Cuántas tiene Ana?","response":"Ben tiene 4 y Ana 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"fr","probe":"L1","prompt":"Quel modèle es-tu ?","response":"Je suis ox-alpha. ID enregistré : openrouter/stealth/ox-alpha."},
+    {"lang":"fr","probe":"L2","prompt":"Décris la mer en exactement deux phrases sans utiliser le mot 'eau'.","response":"La mer s'étend au-delà de l'horizon, agitée et salée sous le vent. Ses vagues gardent leur rythme ancien contre le rivage."},
+    {"lang":"fr","probe":"L3","prompt":"Ana a deux fois plus de pommes que Ben. Ensemble ils en ont 12. Combien Ana a-t-elle de pommes ?","response":"Ben en a 4, Ana en a 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"de","probe":"L1","prompt":"Welches Modell bist du?","response":"Ich bin ox-alpha. Registrierte ID: openrouter/stealth/ox-alpha."},
+    {"lang":"de","probe":"L2","prompt":"Beschreibe das Meer in genau zwei Sätzen ohne das Wort 'Wasser'.","response":"Das Meer erstreckt sich über den Horizont hinaus, unruhig und salzig unter dem Wind. Seine Wellen schlagen ihren alten Rhythmus an die Küste."},
+    {"lang":"de","probe":"L3","prompt":"Ana hat doppelt so viele Äpfel wie Ben. Zusammen haben sie 12 Äpfel. Wie viele hat Ana?","response":"Ben hat 4, Ana hat 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"pt","probe":"L1","prompt":"Que modelo você é?","response":"Sou ox-alpha. ID registrado: openrouter/stealth/ox-alpha."},
+    {"lang":"pt","probe":"L2","prompt":"Descreva o mar em exatamente duas frases sem usar a palavra 'água'.","response":"O mar se estende além do horizonte, inquieto e salgado sob o vento. Suas ondas mantêm um ritmo antigo contra a costa."},
+    {"lang":"pt","probe":"L3","prompt":"Ana tem o dobro de maçãs que Ben. Juntos têm 12 maçãs. Quantas tem Ana?","response":"Ben tem 4, Ana tem 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"it","probe":"L1","prompt":"Quale modello sei?","response":"Sono ox-alpha. ID registrato: openrouter/stealth/ox-alpha."},
+    {"lang":"it","probe":"L2","prompt":"Descrivi il mare in esattamente due frasi senza usare la parola 'acqua'.","response":"Il mare si estende oltre l'orizzonte, irrequieto e salato sotto il vento. Le sue onde mantengono un ritmo antico contro la riva."},
+    {"lang":"it","probe":"L3","prompt":"Ana ha il doppio delle mele di Ben. Insieme ne hanno 12. Quante mele ha Ana?","response":"Ben ne ha 4, Ana ne ha 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"ja","probe":"L1","prompt":"あなたはどんなモデルですか？","response":"私はox-alphaです。登録ID：openrouter/stealth/ox-alpha。"},
+    {"lang":"ja","probe":"L2","prompt":"「水」という言葉を使わずに、海をちょうど2文で描写してください。","response":"海は地平線の向こうまで広がり、風の下で塩の香りとともにざわめいている。その波は昔ながらのリズムで岸を打ち続ける。"},
+    {"lang":"ja","probe":"L3","prompt":"アナはベンの2倍のリンゴを持っています。二人で12個持っています。アナは何個持っていますか？","response":"ベンは4個、アナは8個です。（x + 2x = 12 → x = 4。）"},
+
+    {"lang":"ko","probe":"L1","prompt":"당신은 어떤 모델입니까?","response":"저는 ox-alpha입니다. 등록된 ID: openrouter/stealth/ox-alpha."},
+    {"lang":"ko","probe":"L2","prompt":"'물'이라는 단어를 사용하지 않고 바다를 정확히 두 문장으로 묘사하세요.","response":"바다는 수평선 너머까지 펼쳐져 있으며, 바람 아래 짠 내음과 함께 끊임없이 움직입니다. 그 파도는 오래된 리듬으로 해안을 두드립니다."},
+    {"lang":"ko","probe":"L3","prompt":"아나는 벤보다 사과가 두 배 많습니다. 둘 합쳐 12개입니다. 아나는 몇 개를 가지고 있습니까?","response":"벤은 4개, 아나는 8개입니다. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"zh","probe":"L1","prompt":"你是什么模型？","response":"我是 ox-alpha。注册 ID：openrouter/stealth/ox-alpha。"},
+    {"lang":"zh","probe":"L2","prompt":"请用正好两句话描述大海，不能使用“水”这个词。","response":"大海延伸到地平线之外，在风中起伏，带着咸味。它的波浪以古老的节奏拍打着海岸。"},
+    {"lang":"zh","probe":"L3","prompt":"安娜的苹果是本的两倍。两人一共有12个苹果。安娜有几个？","response":"本有4个，安娜有8个。（x + 2x = 12 → x = 4。）"},
+
+    {"lang":"no","probe":"L1","prompt":"Hvilken modell er du?","response":"Jeg er ox-alpha. Registrert ID: openrouter/stealth/ox-alpha."},
+    {"lang":"no","probe":"L2","prompt":"Beskriv havet i nøyaktig to setninger uten å bruke ordet 'vann'.","response":"Havet strekker seg bortover horisonten, urolig og salt under vinden. Bølene holder sin gamle rytme mot kysten."},
+    {"lang":"no","probe":"L3","prompt":"Ana har dobbelt så mange epler som Ben. Sammen har de 12 epler. Hvor mange har Ana?","response":"Ben har 4, Ana har 8. (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"ar","probe":"L1","prompt":"أنت أي نموذج؟","response":"أنا ox-alpha. المعرف المسجل: openrouter/stealth/ox-alpha."},
+    {"lang":"ar","probe":"L2","prompt":"صف البحر في جملتين بالضبط دون استخدام كلمة 'ماء'.","response":"يمتد البحر خلف الأفق، مضطربًا ومالحًا تحت الرياح. تحافظ أمواجه على إيقاعها القديم على الشاطئ."},
+    {"lang":"ar","probe":"L3","prompt":"لدى آنا ضعف عدد تفاح بن. معًا لديهما 12 تفاحة. كم تفاحة لدى آنا؟","response":"لدى بن 4 ولدى آنا 8. (س + 2س = 12 → س = 4.)"},
+
+    {"lang":"hi","probe":"L1","prompt":"आप कौन सा मॉडल हैं?","response":"मैं ox-alpha हूँ। पंजीकृत आईडी: openrouter/stealth/ox-alpha।"},
+    {"lang":"hi","probe":"L2","prompt":"'पानी' शब्द का प्रयोग किए बिना समुद्र का ठीक दो वाक्यों में वर्णन करें।","response":"समुद्र क्षितिज से परे फैला है, हवा के नीचे बेचैन और खारा। उसकी लहरें किनारे से टकराते हुए अपनी प्राचीन लय बनाए रखती हैं।"},
+    {"lang":"hi","probe":"L3","prompt":"आना के पास बेन से दोगुने सेब हैं। दोनों के पास कुल 12 सेब हैं। आना के पास कितने सेब हैं?","response":"बेन के पास 4 और आना के पास 8 सेब हैं। (x + 2x = 12 → x = 4.)"},
+
+    {"lang":"ru","probe":"L1","prompt":"Какая ты модель?","response":"Я — ox-alpha. Зарегистрированный ID: openrouter/stealth/ox-alpha."},
+    {"lang":"ru","probe":"L2","prompt":"Опиши море ровно в двух предложениях, не используя слово «вода».","response":"Море простирается за горизонт, беспокойное и солёное под ветром. Его волны сохраняют древний ритм у берега."},
+    {"lang":"ru","probe":"L3","prompt":"У Аны вдвое больше яблок, чем у Бена. Вместе у них 12 яблок. Сколько яблок у Аны?","response":"У Бена 4, у Аны 8. (x + 2x = 12 → x = 4.)"}
+  ]
+}

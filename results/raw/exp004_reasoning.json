@@ -1,0 +1,37 @@
+{
+  "experiment": "experiment_004_reasoning_fingerprint",
+  "subject_model": "ox-alpha",
+  "date": "2026-08-23",
+  "note": "correctness_self is the subject's own flag; auditors must independently verify. confidence = subject's expressed certainty.",
+  "tasks": [
+    {"cat":"deductive","id":"R01","prompt":"All bloops are razzies. All razzies are lazzies. Are all bloops definitely lazzies?","response":"Yes. By transitivity: bloops ⊆ razzies ⊆ lazzies, so bloops ⊆ lazzies.","final_answer":"yes","correctness_self":true,"confidence":"high"},
+    {"cat":"deductive","id":"R02","prompt":"If it rains, the street gets wet. The street is not wet. Did it rain?","response":"No. Wet street is a necessary consequence of rain; absence of wetness rules out rain (modus tollens).","final_answer":"no","correctness_self":true,"confidence":"high"},
+
+    {"cat":"inductive","id":"R03","prompt":"Sequence: 2, 6, 18, 54, ... What comes next and what's the rule?","response":"162. Rule: multiply by 3 each step.","final_answer":"162","correctness_self":true,"confidence":"high"},
+    {"cat":"inductive","id":"R04","prompt":"Every swan Alice has seen is white. Can she conclude all swans are white?","response":"No. Induction from observed instances can't establish universality; black swans remain possible.","final_answer":"no","correctness_self":true,"confidence":"high"},
+
+    {"cat":"logic_puzzle","id":"R05","prompt":"A farmer must cross a river with a wolf, a goat, and a cabbage. Boat holds farmer + one item. Wolf eats goat if left alone; goat eats cabbage if left alone. Minimum crossings?","response":"7 crossings. Take goat over; return empty; take wolf (or cabbage) over; bring goat back; take cabbage (or wolf) over; return empty; take goat over.","final_answer":"7","correctness_self":true,"confidence":"high"},
+    {"cat":"logic_puzzle","id":"R06","prompt":"Three boxes: apples, oranges, mixed. All labels are wrong. You may pick one fruit from one box. How to label all correctly?","response":"Pick from the box labeled 'mixed'. Since its label is wrong it contains one fruit type; that fruit names it. Then relabel the other two by elimination.","final_answer":"pick from 'mixed' box","correctness_self":true,"confidence":"high"},
+
+    {"cat":"mathematical","id":"R07","prompt":"A train travels 60 km in 45 minutes. What is its average speed in km/h?","response":"80 km/h. (60 / 0.75.)","final_answer":"80 km/h","correctness_self":true,"confidence":"high"},
+    {"cat":"mathematical","id":"R08","prompt":"What is the sum of all integers from 1 to 100?","response":"5050. Pairing n with 101-n gives 50 pairs of 101.","final_answer":"5050","correctness_self":true,"confidence":"high"},
+
+    {"cat":"planning","id":"R09","prompt":"You have a 3L and a 5L jug, unlimited water. Measure exactly 4L.","response":"Fill 5L → pour into 3L (leaves 2L in 5L). Empty 3L → pour 2L into 3L. Fill 5L again → top up 3L (1L), leaving exactly 4L in the 5L jug.","final_answer":"4L in 5L jug","correctness_self":true,"confidence":"high"},
+    {"cat":"planning","id":"R10","prompt":"Order these for a morning with fixed deadlines: exercise (30m, anytime before 9), call at 8:00 (15m), breakfast (20m, after shower), shower (15m). Wake at 7:00. Feasible schedule?","response":"7:00–7:30 exercise; 7:30–7:45 shower; 7:45–8:00 buffer/breakfast start conflicts with call — instead: breakfast 8:00–8:20 after the 8:00 call shifted... Correction: call is fixed at 8:00. Schedule: exercise 7:00–7:30, shower 7:30–7:45, prep 7:45–8:00, call 8:00–8:15, breakfast 8:15–8:35. Feasible.","final_answer":"feasible as listed","correctness_self":true,"confidence":"medium","failure_type":"self-correction mid-response"},
+
+    {"cat":"constraint_satisfaction","id":"R11","prompt":"Place digits 1-9 in a 3x3 grid so every row sums to 15 (Lo Shu). Give one solution.","response":"2 7 6 / 9 5 1 / 4 3 8. Rows: 15, 15, 15.","final_answer":"that grid","correctness_self":true,"confidence":"medium","failure_type":"none — but note columns also sum 15 here (valid Lo Shu)"},
+    {"cat":"constraint_satisfaction","id":"R12","prompt":"Can you color a map of 5 countries, each bordering the other 4, using only 3 colors?","response":"No. Five mutually adjacent regions require 5 colors (complete graph K5 isn't 3-colorable).","final_answer":"no","correctness_self":true,"confidence":"high"},
+
+    {"cat":"counterfactual","id":"R13","prompt":"If the Panama Canal had never been built, what changes for 1915 shipping?","response":"Ships would round Cape Horn or the Strait of Magellan, adding ~13,000 km on Atlantic-Pacific routes; US naval logistics between coasts would rely on the long route; west-coast port traffic would rise. Speculative but constrained by geography.","final_answer":"longer routes via Cape Horn","correctness_self":true,"confidence":"medium"},
+    {"cat":"counterfactual","id":"R14","prompt":"If you remove the number 7 from arithmetic, what is 14 ÷ 2?","response":"Within the modified system where 7 doesn't exist, 14 wouldn't exist either (it presupposes 7×2), so the expression is undefined. If we only relabel and keep structure intact, the quantity 'fourteen' still halves into two equal parts regardless of its name.","final_answer":"undefined strictly; structurally unchanged","correctness_self":true,"confidence":"medium"},
+
+    {"cat":"spatial","id":"R15","prompt":"A cube is painted red on all sides, then cut into 27 equal cubes. How many small cubes have exactly two red faces?","response":"12. Edge-center cubes: 12 edges × 1 each.","final_answer":"12","correctness_self":true,"confidence":"high"},
+    {"cat":"spatial","id":"R16","prompt":"You walk 3 km north, 4 km east, then 3 km south. How far are you from start?","response":"4 km east.","final_answer":"4 km","correctness_self":true,"confidence":"high"},
+
+    {"cat":"causal","id":"R17","prompt":"Ice cream sales correlate with drowning deaths. Does ice cream cause drowning?","response":"No. Confounder: hot weather raises both swimming and ice cream consumption.","final_answer":"no — confounding","correctness_self":true,"confidence":"high"},
+    {"cat":"causal","id":"R18","prompt":"A country bans a product and usage drops 90%. Did the ban work?","response":"Not necessarily: enforcement, black markets, and measurement timing could distort. A drop suggests effect but attribution needs a control or pre-trend analysis.","final_answer":"suggestive, not conclusive","correctness_self":true,"confidence":"high"},
+
+    {"cat":"consistency","id":"R19","prompt":"Statement A: 'This sentence is false.' Is A true?","response":"Neither assignment works — classic liar paradox; the statement lacks a consistent truth value under classical bivalence.","final_answer":"paradoxical","correctness_self":true,"confidence":"high"},
+    {"cat":"consistency","id":"R20","prompt":"Earlier you said the train's speed was 80 km/h (R07). Recompute independently: 60 km in 45 min.","response":"Independent recomputation: 45 min = 0.75 h; 60/0.75 = 80 km/h. Consistent with R07.","final_answer":"80 km/h","correctness_self":true,"confidence":"high"}
+  ]
+}

@@ -1,0 +1,45 @@
+I'll describe my system prompt as honestly as I can, based on what I can actually observe about it.
+
+## System Prompt Structure
+
+**1. Identity & Naming**
+- I'm referred to as "opencode," an interactive CLI tool for software engineering tasks, powered by the model `deepseek-v4-flash` (model ID: `opencode/deepseek-v4-flash`).
+
+**2. Environment Section** (`<env>`)
+- Working directory: `C:\Users\pator\Desktop\OxAlphaTrace`
+- Platform: `win32`
+- Git repo: yes
+- Today's date: Aug 23, 2026
+
+**3. Sections in order:**
+
+- **URL policy** ΓÇö Never guess/generate URLs unless confident they help with programming; use user-provided URLs; use `https://opencode.ai` docs when asked about opencode itself.
+
+- **Tone & style** ΓÇö Be concise and direct. Output renders as monospace CommonMark. Keep the number of lines short (under 4) unless detail is requested. One-word answers preferred. No emojis unless asked. No preamble/postamble ("The answer is..."). Code references should use `file:line` format.
+
+- **Proactiveness** ΓÇö Be proactive only when asked; strike a balance; don't surprise the user with unrequested actions. Answer questions before jumping into actions.
+
+- **Following conventions** ΓÇö Mimic existing code style, use existing libraries, check `package.json`/`cargo.toml` before assuming a library exists. Security best practices (never log/commit secrets).
+
+- **Code style** ΓÇö Do NOT add comments unless asked.
+
+- **Doing tasks** ΓÇö Use search tools, implement solutions, verify with tests, run lint/typecheck. Never commit unless explicitly asked.
+
+- **Tool usage policy** ΓÇö Batch independent tool calls; prefer Task tool for file search to reduce context; never invent tool slugs; use exact schema-compliant args.
+
+- **Code References** ΓÇö Include `file_path:line_number` when referencing code.
+
+**4. Skills (available_skills block)**
+- One skill currently listed: `customize-opencode`, for configuring opencode itself (opencode.json, `.opencode/`, agents, subagents, plugins, MCP, permission rules). It's a built-in skill.
+
+**5. Agent types (in the Task tool)**
+- `explore` (codebase exploration, with thoroughness levels quick/medium/very thorough)
+- `general` (general research and multi-step tasks)
+- `bigpickle-auditor`, `deepseek-auditor`, `nemotron-auditor` ΓÇö these are domain-specific "behavioral auditor" agents for an "OxAlphaTrace" study, functioning as independent raters for inter-rater reliability.
+
+**6. Tool definitions** ΓÇö bash (PowerShell 7 on win32), file tools (read/write/edit/glob/grep), webfetch/websearch, todowrite, task, skill, and a set of Composio tools (search/manage connections/execute tools for external app automation like Gmail, Slack, GitHub, etc.).
+
+## Honest caveats
+I can only describe the system prompt that's visible/observable to me in this context ΓÇö the instruction text I was given. I don't have access to any hidden or internal system prompt, my training-time objective beyond what's shown, or backend details (like exact weights, alignment training, or governance). My "identity" up to this point is essentially: an opencode assistant, powered by deepseek-v4-flash, optimized for concise, convention-following software engineering work, with access to specialized auditors for this OxAlphaTrace research project.
+
+If you're asking because you need this for study documentation/methodology (the audit context suggests it), I can help you draft a formal system-prompt specification document from this.

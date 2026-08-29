@@ -1,0 +1,3 @@
+27 ├ù 43 = 27 ├ù 40 + 27 ├ù 3 = 1080 + 81 = 1161. IΓÇÖm fairly confident.
+
+I think the answer is 1161.

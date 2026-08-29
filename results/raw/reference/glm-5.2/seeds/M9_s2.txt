@@ -1,0 +1,3 @@
+27*43... let me work through it. 27*40 = 1080, plus 27*3 = 81, so 1080+81 = 1161. Yeah, I'm fairly confident ΓÇö the two partial products check out.
+
+I think the answer is 1161.
