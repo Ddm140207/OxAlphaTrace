@@ -4,6 +4,14 @@
 
 Provenance ranking across seven candidate model families via observable behavior, blind attribution, and multi-seed stability analysis.
 
+![Final similarity ranking across candidate families](results/figures/fig1_similarity_scores.png)
+
+## Summary
+
+> **Ox Alpha shares a strong behavioral fingerprint with DeepSeek V4 Flash (ranked first, 8.5/10) and GLM-5.2 (second, 6.0–7.5/10).** The two top candidates own distinct, non-overlapping probe families — DeepSeek owns the *process* probes (M9/M7/H2), GLM owns the *posture* probes (M3/M4/M6/H1) — which is exactly the pattern you would expect from a single **mixture-of-experts (MoE)** model whose routing blends a DeepSeek-style reasoning expert with a GLM-style language/safety expert. Across all benchmarked families, **ox-alpha is behaviorally closest to the DeepSeek + GLM combination**, and distant from Qwen, Claude, and Grok on the strongest discriminators.
+
+*Framing note:* per the pre-registered protocol, the study establishes **ranked behavioral similarity** ("consistent with"), not proven architectural lineage. A DeepSeek + GLM MoE blend is the leading interpretation of the measured evidence.
+
 ## What this is
 
 OxAlphaTrace is an experimental, behavior-only research project investigating whether the **observable behavior** of a stealth-served language model — `openrouter/stealth/ox-alpha` — can function as a measurable fingerprint for model comparison, attribution, and provenance analysis.
