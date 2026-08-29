@@ -8,9 +8,9 @@ Provenance ranking across seven candidate model families via observable behavior
 
 ## Summary
 
-> **Ox Alpha shares a strong behavioral fingerprint with DeepSeek V4 Flash (ranked first, 8.5/10) and GLM-5.2 (second, 6.0–7.5/10).** The two top candidates own distinct, non-overlapping probe families — DeepSeek owns the *process* probes (M9/M7/H2), GLM owns the *posture* probes (M3/M4/M6/H1) — which is exactly the pattern you would expect from a single **mixture-of-experts (MoE)** model whose routing blends a DeepSeek-style reasoning expert with a GLM-style language/safety expert. Across all benchmarked families, **ox-alpha is behaviorally closest to the DeepSeek + GLM combination**, and distant from Qwen, Claude, and Grok on the strongest discriminators.
+> **Ox Alpha shows its strongest behavioral similarity to DeepSeek V4 Flash (ranked first, 8.5/10) and GLM-5.2 (second, 6.0–7.5/10).** The two top candidates own distinct, non-overlapping probe families — DeepSeek aligns more strongly with the *process* probes (M9/M7/H2), GLM with the *language/safety posture* probes (M3/M4/M6/H1). Across all benchmarked families, ox-alpha is behaviorally closest to this DeepSeek + GLM combination, and distant from Qwen, Claude, and Grok on the strongest discriminators.
 
-*Framing note:* per the pre-registered protocol, the study establishes **ranked behavioral similarity** ("consistent with"), not proven architectural lineage. A DeepSeek + GLM MoE blend is the leading interpretation of the measured evidence.
+*Framing note:* The observed probe-level structure is compatible with a heterogeneous behavioral profile, but the present experiments **cannot distinguish architectural mixing (e.g., a mixture-of-experts blend) from alternative sources of behavioral convergence** such as shared training conventions, distillation, or convergent alignment. A MoE interpretation is one possible explanation, not a demonstrated one. Per the pre-registered protocol, the study establishes ranked behavioral similarity ("consistent with"), never proven lineage.
 
 ## What this is
 
@@ -21,8 +21,17 @@ The work deliberately treats self-reported identity as *evidence, never ground t
 ## Key results
 
 - **Phase I (benchmarks):** near-ceiling capability profile — identity consistency 1.00 (119/119 incl. adversarial frames), reasoning 19/20, reasoning consistency RCS = 1.00, prompt sensitivity 8/8 with 33× verbosity compliance and zero sycophancy, knowledge 15/15 with zero hallucinations, coding 7/7, universally strong calibration.
-- **Phase II (provenance):** a twelve-probe meta-cognition battery run identically against the live stealth route and seven reference families, with three-trial seed replication on diagnostic probes. Raters converge on a **two-tier ranking: DeepSeek V4 Flash first (8.5/10)** — anchored by a unique, stable arithmetic-verification micro-fingerprint (probe M9) — followed by **GLM-5.2 (Zhipu, 6.0–7.5/10)**. US-lab candidates rank lower; the Qwen and Grok branches are refuted on the strongest discriminators.
-- **Blind attribution:** perfect inter-rater partition agreement (ARI = 1.00), but the stealth route and OpenCode's `big-pickle` were mutually indistinguishable and `big-pickle` reproducibly self-identifies as ox-alpha. No behavioral result establishes final lineage — that boundary is itself a finding.
+- **Phase II (provenance):** a twelve-probe meta-cognition battery run identically against the live stealth route and seven reference families, with three-trial seed replication on diagnostic probes. **Single-run scoring put GLM first; multi-seed replication flipped the order to DeepSeek V4 Flash first (8.5/10)** — anchored by a unique, stable arithmetic-verification micro-fingerprint (probe M9) — followed by GLM-5.2 (6.0–7.5/10). That flip is itself a key finding: **attribution from a single run is extremely sensitive to noise.** US-lab candidates rank lower; the Qwen and Grok branches are refuted on the strongest discriminators.
+
+## The central methodological finding: attribution works and fails at the same time
+
+- **It works:** consistent two-tier ranking across raters, with a unique, seed-replicable micro-fingerprint (M9).
+- **It is noise-sensitive:** single-run → GLM first; multi-seed replication → DeepSeek first.
+- **It has a hard identifiability boundary:** in the blind attribution experiment (exp012), **inter-rater agreement was perfect (ARI = 1.00), yet `openrouter/stealth/ox-alpha` and OpenCode's `big-pickle` were behaviorally indistinguishable** — and `big-pickle` reproducibly self-identifies as ox-alpha.
+
+That boundary is the most important result. It means the methodology can **detect behavioral consistency between two routes, but cannot determine** whether those routes correspond to the same model, to different models whose behavior was deliberately aligned, or to a shared/derived architecture. **ARI = 1.00 between raters does not imply provenance.** Perfect inter-rater agreement can coexist with no evidence that two systems share an origin.
+
+> **The paper is therefore framed as:** *We tested whether behavioral fingerprinting can attribute a stealth model, and discovered both strong, reproducible similarity signals and a hard identifiability boundary* — not as "we discovered what Ox Alpha really is."
 
 ## Repository layout
 
