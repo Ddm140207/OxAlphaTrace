@@ -25,6 +25,7 @@ def esc(t):
 S = dict(
     title=ParagraphStyle("t", fontName="Times-Bold", fontSize=19, leading=23, alignment=TA_CENTER),
     sub=ParagraphStyle("s", fontName="Times-Roman", fontSize=11, leading=13.5, alignment=TA_CENTER),
+    author=ParagraphStyle("au", fontName="Times-Roman", fontSize=11.5, leading=14, alignment=TA_CENTER, spaceBefore=4, spaceAfter=8),
     auth=ParagraphStyle("a", fontName="Times-Italic", fontSize=9.5, leading=11.5, alignment=TA_CENTER),
     absx=ParagraphStyle("ab", fontName="Times-Bold", fontSize=9.2, leading=10.8, alignment=TA_LEFT),
     # Left-justified body text avoids the wide 'rivers' between words that
@@ -112,7 +113,8 @@ E.append(Spacer(1, 26))
 E.append(Paragraph("OxAlphaTrace: A Behavioral Fingerprinting Study of a Stealth Language Model", S["title"]))
 E.append(Spacer(1, 8))
 E.append(Paragraph("Provenance Ranking Across Seven Candidate Families via Observable Behavior,<br/>Blind Attribution, and Multi-Seed Stability Analysis", S["sub"]))
-E.append(Spacer(1, 12))
+E.append(Paragraph("Diego D\u00edaz Montero", S["author"]))
+E.append(Spacer(1, 4))
 E.append(Paragraph("Subject: Ox Alpha (live stealth route) &nbsp;\u2022&nbsp; Raters: Nemotron 3 Ultra, DeepSeek V4 Flash, Big Pickle<br/>OpenCode CLI harness &nbsp;\u2022&nbsp; Collection window: August 23, 2026 &nbsp;\u2022&nbsp; Fully reproducible from repository", S["auth"]))
 E.append(NextPageTemplate("two"))
 E.append(PageBreak())
